@@ -1,10 +1,12 @@
 {
-   "version":"3.939",
+   "version":"4.000",
    "link":"https://github.com/zunjae/anyme_download/releases/download/DownloadLink/anYme.apk",
-   "adblock_version":"30",
+   "adblock_version":"43",
+   "advanced_adblock": true,
+   "show_feedback_button": false,
    "browser_version":"6",
-   "nsfw_filter_version":"6",
-   "force_update":true,
-   "changelog_url":"https://www.reddit.com/r/anYme/comments/7cgczj/anyme_app_update_3939/",
-   "short_description":"New features and 9Anime fixed!"
+   "nsfw_filter_version":"9",
+   "force_update": true,
+   "changelog_url":"https://www.reddit.com/r/anYme/comments/7m80r6/huge_anyme_app_update_version_4/",
+   "short_description":"Huge update! New Theme, New Sources, Tablet/TV interface support and more!"
 }
