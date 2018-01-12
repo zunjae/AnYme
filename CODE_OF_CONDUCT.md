@@ -12,6 +12,7 @@ We invite all those who participate in AnYme to help us create positive experien
 The following behaviors are expected and requested of all community members:
 
 *   **Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community. AnYme is only able to grow once people continue to report bugs and suggest features.**
+*   Always read the changelog whenever you download an ALPHA or BETA build of the app. Do not ignore them.
 *   Exercise consideration and respect in your speech and actions.
 *   Attempt collaboration before conflict.
 *   Refrain from demeaning, discriminatory, or harassing behavior and speech.
@@ -24,6 +25,7 @@ The following behaviors are considered unacceptable within our community:
 *   **Asking for Dark Mode**
 *   **Complaining (about something you find annoying) rather than providing meaningful feedback.**
 *   **Asking for the update button to be removed**
+*   **Breaking server rules in the Discord server. You can find them in #rules
 *   **Breaking channel-specific rules in the Discord server**
 *   Violence, threats of violence or violent language directed against another person.
 *   Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
