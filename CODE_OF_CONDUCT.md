@@ -25,7 +25,7 @@ The following behaviors are considered unacceptable within our community:
 *   **Asking for Dark Mode**
 *   **Complaining (about something you find annoying) rather than providing meaningful feedback.**
 *   **Asking for the update button to be removed**
-*   **Breaking server rules in the Discord server. You can find them in #rules
+*   **Breaking server rules in the Discord server. You can find them in #rules**
 *   **Breaking channel-specific rules in the Discord server**
 *   Violence, threats of violence or violent language directed against another person.
 *   Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
