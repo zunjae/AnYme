@@ -22,9 +22,8 @@ The following behaviors are expected and requested of all community members:
 
 The following behaviors are considered unacceptable within our community:
 
-*   **Asking for Dark Mode**
+*   Being annoying. This _should_ be an unwritten rule, though unfortunately I do have to mention it
 *   **Complaining (about something you find annoying) rather than providing meaningful feedback.**
-*   **Asking for the update button to be removed**
 *   **Breaking server rules in the Discord server. You can find them in #rules**
 *   **Breaking channel-specific rules in the Discord server**
 *   Violence, threats of violence or violent language directed against another person.
