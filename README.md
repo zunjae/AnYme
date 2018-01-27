@@ -6,8 +6,6 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 ![beep boop](https://i.imgur.com/MwJ1kQ8.png)
 
-[**CODE OF CONDUCT. MUST READ BEFORE PARTICIPATING IN BUG REPORTS**](https://github.com/zunjae/anYme/blob/master/CODE_OF_CONDUCT.md)
-
 
 # Features
 
