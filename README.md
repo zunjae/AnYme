@@ -5,10 +5,7 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 
 [![Github All Releases](https://img.shields.io/github/downloads/zunjae/anyme_download/total.svg)]()
-
-[![Website](https://img.shields.io/website-up-down-green-red/http/anymeapp.com.svg?label=my-website)]()
-
-[![GitHub stars](https://img.shields.io/github/stars/zunjae/anyme.svg?style=social&label=Stars)]()
+[![GitHub stars](https://img.shields.io/github/stars/zunjae/anYme.svg?style=social&label=Stars)]()
 
 
 ![beep boop](https://i.imgur.com/MwJ1kQ8.png)
