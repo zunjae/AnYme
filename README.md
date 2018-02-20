@@ -8,7 +8,7 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 [![](https://img.shields.io/github/stars/zunjae/anYme.svg?style=social&label=Stars)]()
 
 
-![beep boop](https://i.imgur.com/MwJ1kQ8.png)
+![beep boop](https://cdn.discordapp.com/attachments/341672347746697216/415614520707514368/151916057400801.jpg)
 
 
 # Features
