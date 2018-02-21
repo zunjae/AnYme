@@ -1,7 +1,7 @@
 # AnYme
 App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
-[**DOWNLOAD THE APP HERE!!!**](https://github.com/zunjae/anyme_download/releases/download/DownloadLink/anYme.apk)
+[**CLICK HERE TO DOWNLOAD THE APP**](https://github.com/zunjae/anyme_download/releases/download/DownloadLink/anYme.apk)
 
 
 [![](https://img.shields.io/github/downloads/zunjae/anyme_download/total.svg)]()
@@ -9,6 +9,8 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 
 ![beep boop](https://cdn.discordapp.com/attachments/341672347746697216/415614520707514368/151916057400801.jpg)
+
+[Join the Discord server to get app updates earlier](http://anymeapp.com/serverinvite)
 
 
 # Features
@@ -36,8 +38,7 @@ and more...
 ## Things you should know
 
 * **The app requires no app permission**. So it can't look at your private files and send them to a server
-* You need at least Android 4.4
-* Minimum supported device size: 4.7". You can still run the app on smaller devices, however the layouts are not optimized.
+* You need at least Android 5
 * You can request new features on https://www.reddit.com/r/anYme
 * anYme uses **HTTPS** when connecting to MAL, tho when creating a MAL account, I recommend you use a password you do not use anywhere else. This is just a general advise for all sites
 
