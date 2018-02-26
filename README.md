@@ -21,6 +21,7 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
      * This includes information like **score, rating, broadcast day, adaptions, sequels etc.**
 * Find which characters play in a show, who their Voice Actors are.
 * **Built-in AdBlocker** which blocks annoying ads and trackers
+* 20+ App Themes including **Night Mode**
 * Don't know what to watch, use the **Random Anime button**
 * Cleanup your MyAnimeList profile
 * Quickly see how long it'll take before an Anime airs
@@ -37,10 +38,10 @@ and more...
 
 ## Things you should know
 
-* **The app requires no app permission**. So it can't look at your private files and send them to a server
+* **AnYme  requires no app permission**. So it can't look at your private files and send them to a server
 * You need at least Android 5
 * You can request new features on https://www.reddit.com/r/anYme
-* anYme uses **HTTPS** when connecting to MAL, tho when creating a MAL account, I recommend you use a password you do not use anywhere else. This is just a general advise for all sites
+* AnYme uses **HTTPS** when connecting to MAL, tho when creating a MAL account, I recommend you pick a password you do not use anywhere else!
 
 ## Powered By:
 
