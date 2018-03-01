@@ -22,3 +22,7 @@
 
 ### How can I cast videos?
   - Install one of these apps: VLC, LocalCast, AllCast, AllScreen, WebVideoCast, Yatse or BubbleUPnP. In the built-in browser you can then toggle the cast icon and AnYme will open one of these installed apps instead of your default video player.
+  
+---
+
+Feel free to open a pull request with frequently asked questions (include an answer if you have it)
