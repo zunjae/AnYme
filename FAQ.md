@@ -1,9 +1,11 @@
 # AnYme Frequently Asked Questions
 
 ## Table of contents
-  * [Where can I find the latest version of the app](#where-can-i-find-the-latest-version-of-the-app)
+  * [Where can I find the latest version of the app?](#where-can-i-find-the-latest-version-of-the-app)
   * [What is the best app to watch videos?](#what-is-the-best-app-to-watch-videos)
-  * [How can I cast videos](#how-can-i-cast-videos)
+  * [How can I cast videos?](#how-can-i-cast-videos)
+  * [How do I stay up to date with new features?](#how-do-i-stay-up-to-date-with-new-features)
+  
   
 ---
 
@@ -22,6 +24,13 @@
 
 ### How can I cast videos?
   - Install one of these apps: VLC, LocalCast, AllCast, AllScreen, WebVideoCast, Yatse or BubbleUPnP. In the built-in browser you can then toggle the cast icon and AnYme will open one of these installed apps instead of your default video player.
+  
+---  
+
+### How do I stay up to date with new features?
+  - Either visit the #updates or #alpha-updates channel on the [Discord server](http://anymeapp.com/serverinvite) or visit the [Trello page](http://anymeapp.com/todo)
+  
+
   
 ---
 
