@@ -39,6 +39,7 @@ and more...
 * You need at least Android 4.4
 * You can request new features on https://www.reddit.com/r/anYme
 * AnYme uses **HTTPS** when connecting to MAL, tho when creating a MAL account, I recommend you pick a password you do not use anywhere else!
+* You can login on Kanon through https://kanonapp.com/login on your phone
 
 ## Powered By:
 
@@ -57,9 +58,11 @@ and more...
 * [FontAwesome](http://fontawesome.io/)
 * [Fabric](https://docs.fabric.io/android/fabric/overview.html)
 * [FancyButtons](https://github.com/medyo/Fancybuttons)
-* [SimpleToast](https://github.com/Pierry/SimpleToast)
-* [SweetAlert](https://github.com/pedant/sweet-alert-dialog)
 * [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView)
+* [MaterialDialogs](https://github.com/afollestad/material-dialogs)
+* [TagView](https://github.com/Cutta/TagView)
+* [MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
+* [Otto](http://square.github.io/otto/)
 
 ## Disclaimer
 
