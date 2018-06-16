@@ -1,7 +1,7 @@
 # AnYme
 App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
-<a href="https://github.com/zunjae/anyme_download/releases/download/DownloadLink/anYme.apk" alt="CLICK HERE TO DOWNLOAD THE APP"><img src="https://img.shields.io/badge/DOWNLOAD-apk_file-green.svg?longCache=true&style=for-the-badge&colorA=42A5F6&colorB=DE2E43" /></a>
+[CLICK HERE TO DOWNLOAD THE APP](https://github.com/zunjae/anyme_download/releases/download/DownloadLink/anYme.apk)
 
 ![beep boop](https://cdn.discordapp.com/attachments/341672347746697216/415614520707514368/151916057400801.jpg)
 
