@@ -37,7 +37,7 @@ and more...
 
 * **AnYme  requires no app permission**. So it can't look at your private files and send them to a server
 * You need at least Android 4.4
-* You can request new features on https://www.reddit.com/r/anYme
+* You can request new features on https://www.reddit.com/r/AnYme
 * AnYme uses **HTTPS** when connecting to MAL, tho when creating a MAL account, I recommend you pick a password you do not use anywhere else!
 * You can login on Kanon through https://kanonapp.com/login on your phone
 
