@@ -52,6 +52,8 @@ and more...
 
 (made by other people)
 * [Jikan.moe](https://jikan.moe/)
+* [FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
+* [Room](https://developer.android.com/topic/libraries/architecture/room)
 * [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
 * [Glide](https://github.com/bumptech/glide)
 * [ButterKnife](http://jakewharton.github.io/butterknife/)
