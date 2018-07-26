@@ -15,6 +15,8 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * Find Similar and Related Anime from shows you're watching
 * Read information about an anime
      * This includes information like **score, rating, broadcast day, adaptions, sequels etc.**
+* **See recommendations** based on shows you like
+* See a list of **all popular, ongoing and airing shows**
 * **Add notes** to episodes you have watched
 * Save a list of your **favorite characters** (aka Waifus or Husbandos)
 * Find which characters play in a show and who their voice actors are.
@@ -27,7 +29,6 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * Look up pictures from your favorite show and **batch-download** them
 * Look up **theme songs** and listen to them
 * Find **discussions** about episodes on Reddit
-* Get notified whenever a **new episode releases!**.
 
 
 and more...
@@ -39,7 +40,7 @@ and more...
 * You need at least Android 4.4
 * You can request new features on https://www.reddit.com/r/AnYme
 * AnYme uses **HTTPS** when connecting to MAL, tho when creating a MAL account, I recommend you pick a password you do not use anywhere else!
-* You can login on Kanon through https://kanonapp.com/login on your phone
+* You can login or register on Kanon through https://kanonapp.com/account/register on your phone
 
 ## Credits:
 
@@ -49,6 +50,7 @@ and more...
 * [ZPagerWrapper](https://github.com/zunjae/ZPagerWrapper)
 * [ZAsync](https://github.com/zunjae/ZAsync)
 * [ZApp](https://github.com/zunjae/ZApp)
+* [Zatch](https://github.com/zunjae/Zatch) (work in progress)
 
 (made by other people)
 * [Jikan.moe](https://jikan.moe/)
@@ -65,6 +67,7 @@ and more...
 * [TagView](https://github.com/Cutta/TagView)
 * [MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
 * [Otto](http://square.github.io/otto/)
+* [FastScroll](https://github.com/L4Digital/FastScroll)
 
 Other
 
