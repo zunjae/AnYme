@@ -20,7 +20,6 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * **Add notes** to episodes you have watched
 * Save a list of your **favorite characters** (aka Waifus or Husbandos)
 * Find which characters play in a show and who their voice actors are.
-* 20+ App Themes including **Night Mode**
 * Don't know what to watch, use the **Random Anime button**
 * Cleanup your MyAnimeList profile
 * **Bulk delete shows** from your profile
