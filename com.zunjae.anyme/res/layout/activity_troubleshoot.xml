@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:background="@drawable/gradient_background" app:subtitleTextColor="0x106000b" app:title="Troubleshoot" app:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+    <android.support.v7.widget.RecyclerView app:id="@+id/recyclerView" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+</LinearLayout>

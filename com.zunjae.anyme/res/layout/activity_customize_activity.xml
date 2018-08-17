@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:background="@drawable/gradient_background" app:title="Customize Main Screen" app:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+    <android.support.v7.widget.RecyclerView app:id="@+id/recyclerView" app:padding="4dp" app:scrollbars="vertical" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <LinearLayout app:orientation="vertical" app:padding="10dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="18sp" app:textStyle="bold" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Columns:" />
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <SeekBar app:id="@+id/seekBarColumns" app:padding="5dp" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:max="4" app:layout_weight="1.0" />
+            <TextView app:textSize="20sp" app:textStyle="bold" app:id="@+id/seekBarColumnsValue" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="vertical" app:padding="10dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="18sp" app:textStyle="bold" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Image Height:" />
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <SeekBar app:id="@+id/seekBarImageHeight" app:padding="5dp" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:max="1300" app:layout_weight="1.0" />
+            <TextView app:textSize="20sp" app:textStyle="bold" app:id="@+id/seekBarImageHeightValue" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="200" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <Button app:id="@+id/resetButton" app:background="@color/colorAccent" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="5dp" app:foreground="?unknown_attr_ref: 101030e" app:text="RESET" app:layout_weight="1.0" />
+        <Button app:id="@+id/saveButton" app:background="@color/colorPrimary" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="5dp" app:foreground="?unknown_attr_ref: 101030e" app:text="SAVE" app:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

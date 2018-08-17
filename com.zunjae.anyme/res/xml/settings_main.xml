@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Synchronize Profile On Startup" android:key="@string/preference_key_loadDataOnStartup" android:summary="@string/preferences_startup_application_summary" android:defaultValue="true" />
+    <Preference android:title="Appearance" android:key="@string/preference_menu_appearance" />
+    <Preference android:title="Streaming" android:key="@string/preference_menu_streaming" />
+    <Preference android:title="Downloading" android:key="@string/preference_menu_downloading" />
+    <Preference android:title="Storage" android:key="@string/preference_menu_storage" />
+    <Preference android:title="Miscellaneous" android:key="@string/preference_menu_misc" />
+    <Preference android:title="About " android:key="@string/preference_menu_about" />
+    <Preference android:title="Troubleshoot " android:key="@string/preference_menu_troubleshoot" />
+</PreferenceScreen>

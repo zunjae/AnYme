@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Miscellaneous" android:key="preference_category_misc">
+        <CheckBoxPreference android:title="Keep Anime Screen Open" android:key="@string/preference_key_stay_on_animescreen" android:summary="@string/preference_key_dont_return_mainscreen_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Hide 'Join Discord Server'" android:key="preference_key_hide_discord_item" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Hide 'MAL Profile Cleanup'" android:key="preference_key_hide_cleanup_item" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Browser" android:key="preference_category_browser">
+        <CheckBoxPreference android:title="Previous Page on Back Button" android:key="preference_key_toolbar_back_button" android:summary="When using the built-in browser, clicking the back button on the toolbar will go back one page instead of closing the browser" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Use Advanced AdBlocker" android:key="preference_key_use_advanced_adblocker" android:summary="Use an advanced AdBlocker on HH" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

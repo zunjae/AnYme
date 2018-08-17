@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="abc_fade_in">res/anim/abc_fade_in.xml</anim>
+    <anim name="abc_fade_out">res/anim/abc_fade_out.xml</anim>
+    <anim name="abc_grow_fade_in_from_bottom">res/anim/abc_grow_fade_in_from_bottom.xml</anim>
+    <anim name="abc_popup_enter">res/anim/abc_popup_enter.xml</anim>
+    <anim name="abc_popup_exit">res/anim/abc_popup_exit.xml</anim>
+    <anim name="abc_shrink_fade_out_from_bottom">res/anim/abc_shrink_fade_out_from_bottom.xml</anim>
+    <anim name="abc_slide_in_bottom">res/anim/abc_slide_in_bottom.xml</anim>
+    <anim name="abc_slide_in_top">res/anim/abc_slide_in_top.xml</anim>
+    <anim name="abc_slide_out_bottom">res/anim/abc_slide_out_bottom.xml</anim>
+    <anim name="abc_slide_out_top">res/anim/abc_slide_out_top.xml</anim>
+    <anim name="abc_tooltip_enter">res/anim/abc_tooltip_enter.xml</anim>
+    <anim name="abc_tooltip_exit">res/anim/abc_tooltip_exit.xml</anim>
+    <anim name="decelerate_cubic">res/anim/decelerate_cubic.xml</anim>
+    <anim name="design_bottom_sheet_slide_in">res/anim/design_bottom_sheet_slide_in.xml</anim>
+    <anim name="design_bottom_sheet_slide_in">res/anim-v21/design_bottom_sheet_slide_in.xml</anim>
+    <anim name="design_bottom_sheet_slide_out">res/anim/design_bottom_sheet_slide_out.xml</anim>
+    <anim name="design_bottom_sheet_slide_out">res/anim-v21/design_bottom_sheet_slide_out.xml</anim>
+    <anim name="design_snackbar_in">res/anim/design_snackbar_in.xml</anim>
+    <anim name="design_snackbar_out">res/anim/design_snackbar_out.xml</anim>
+    <anim name="item_animation_fall_down">res/anim/item_animation_fall_down.xml</anim>
+    <anim name="layout_animation_fall_down">res/anim/layout_animation_fall_down.xml</anim>
+    <anim name="popup_enter">res/anim/popup_enter.xml</anim>
+    <anim name="popup_exit">res/anim/popup_exit.xml</anim>
+    <anim name="sd_fade_and_translate_in">res/anim/sd_fade_and_translate_in.xml</anim>
+    <anim name="sd_fade_and_translate_out">res/anim/sd_fade_and_translate_out.xml</anim>
+    <anim name="sd_scale_fade_and_translate_in">res/anim/sd_scale_fade_and_translate_in.xml</anim>
+    <anim name="sd_scale_fade_and_translate_out">res/anim/sd_scale_fade_and_translate_out.xml</anim>
+</resources>

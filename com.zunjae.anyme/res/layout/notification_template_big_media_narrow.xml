@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/status_bar_latest_event_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8001">
+    <ImageView android:id="@+id/icon" android:layout_width="UNKNOWN_DATA_0x8001" android:layout_height="UNKNOWN_DATA_0x8001" android:scaleType="centerCrop" />
+    <include android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/notification_media_cancel_action" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="128dp" android:layout_toLeftOf="@+id/cancel_action" android:layout_marginStart="128dp" android:layout_toStartOf="@+id/cancel_action" layout="@layout/notification_template_lines_media" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/media_actions" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_toRightOf="@+id/icon" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_toEndOf="@+id/icon" />
+    <ImageView android:id="@+id/action_divider" android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_toRightOf="@+id/icon" android:layout_above="@+id/media_actions" android:layout_toEndOf="@+id/icon" />
+</RelativeLayout>

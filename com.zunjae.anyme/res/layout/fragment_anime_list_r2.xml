@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout app:orientation="vertical" app:id="@+id/swipeRefreshLayout" app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+            <TextView app:textSize="19sp" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/searchForNotFoundFilteredAnime" app:padding="9dp" app:focusable="true" app:visibility="gone" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView app:id="@+id/recyclerView" app:padding="4dp" app:clipToPadding="false" app:layoutAnimation="@anim/layout_animation_fall_down" app:layout_width="match_parent" app:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <com.l4digital.fastscroll.FastScroller app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/fastScroller" app:layout_width="wrap_content" app:layout_height="match_parent" app:layout_marginTop="3dp" app:layout_marginBottom="3dp" app:bubbleColor="@color/colorPrimary" app:bubbleTextColor="#ffffff" app:handleColor="#999999" app:hideScrollbar="false" app:showTrack="false" app:trackColor="#bbbbbb" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/viewGroupNoAnimeHere" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+        <TextView app:textSize="18sp" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/fragmentAnimeNoAnimeFound" app:padding="20dp" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/no_anime_found_category_summary" />
+        <Button app:id="@+id/findNewAnimeButton" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="10dp" app:text="See Popular Anime" />
+        <Button app:id="@+id/addAnimeToProfile" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Search by title" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/md_content_textsize" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/md_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="20dp" android:fontFamily="sans-serif" />
+    <ProgressBar android:id="0x102000d" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget_MaterialProgressBar_ProgressBar_Horizontal" />
+</merge>

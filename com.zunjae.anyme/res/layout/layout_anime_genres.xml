@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="@dimen/cardview_lr_padding" card_view:layout_marginRight="@dimen/cardview_lr_padding" card_view:layout_marginBottom="7dp" card_view:cardCornerRadius="4dp" card_view:cardPreventCornerOverlap="false" card_view:elevation="8dp">
+    <LinearLayout card_view:orientation="vertical" card_view:padding="12dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+        <TextView card_view:textSize="21sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="15dp" card_view:text="Genres" />
+        <FrameLayout card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+            <com.cunoraz.tagview.TagView tagview:id="@+id/genresTagView" tagview:layout_width="match_parent" tagview:layout_height="match_parent" tagview:lineMargin="8dp" tagview:tagMargin="8dp" tagview:textPaddingBottom="5dp" tagview:textPaddingLeft="8dp" tagview:textPaddingRight="8dp" tagview:textPaddingTop="5dp" />
+            <TextView tagview:textSize="14sp" tagview:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" tagview:id="@+id/genresErrorMessage" tagview:visibility="gone" tagview:layout_width="match_parent" tagview:layout_height="wrap_content" tagview:text="Could not find any genres.
+Swipe down to retry" tagview:maxLines="2" />
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

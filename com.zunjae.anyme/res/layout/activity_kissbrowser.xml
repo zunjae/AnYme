@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:background="@drawable/gradient_background" app:subtitleTextColor="0x106000b" app:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+        <include layout="@layout/progressbar_browser" />
+    </FrameLayout>
+    <WebView app:id="@+id/webView" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+</LinearLayout>

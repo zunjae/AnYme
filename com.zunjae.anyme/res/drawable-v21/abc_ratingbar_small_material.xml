@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000" android:drawable="@drawable/abc_ic_star_black_16dp" />
+    <item android:id="0x102000f" android:drawable="@drawable/abc_ic_star_half_black_16dp" />
+    <item android:id="0x102000d">
+        <bitmap android:src="@drawable/abc_ic_star_black_16dp" android:tileModeX="repeat" />
+    </item>
+</layer-list>

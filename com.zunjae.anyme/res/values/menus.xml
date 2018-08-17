@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="basic_search">res/menu/basic_search.xml</menu>
+    <menu name="menu_activity_abstractbrowser">res/menu/menu_activity_abstractbrowser.xml</menu>
+    <menu name="menu_activity_abstractnsfwbrowser">res/menu/menu_activity_abstractnsfwbrowser.xml</menu>
+    <menu name="menu_activity_basic_browser">res/menu/menu_activity_basic_browser.xml</menu>
+    <menu name="menu_activity_better_fastanimesearch">res/menu/menu_activity_better_fastanimesearch.xml</menu>
+    <menu name="menu_activity_betteranime">res/menu/menu_activity_betteranime.xml</menu>
+    <menu name="menu_activity_bulk_delete">res/menu/menu_activity_bulk_delete.xml</menu>
+    <menu name="menu_activity_discover">res/menu/menu_activity_discover.xml</menu>
+    <menu name="menu_activity_mainr2">res/menu/menu_activity_mainr2.xml</menu>
+    <menu name="menu_activity_songs">res/menu/menu_activity_songs.xml</menu>
+    <menu name="menu_activity_videobrowser">res/menu/menu_activity_videobrowser.xml</menu>
+    <menu name="menu_livechart">res/menu/menu_livechart.xml</menu>
+</resources>

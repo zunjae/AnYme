@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+    <TextView fancy:id="@+id/title" fancy:text="Title" style="@style/DialogTitle" />
+    <TextView fancy:padding="10dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Please note
+
+Every time an image gets downloaded, ADM will make your phone vibrate.
+
+You can disable this in the settings in the ADM app." />
+    <mehdi.sakout.fancybuttons.FancyButton fancy:id="@+id/saveAndUpdate" fancy:paddingTop="15dp" fancy:paddingBottom="15dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_margin="8dp" fancy:fb_defaultColor="@color/colorPrimary" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_radius="3dp" fancy:fb_text="Okay" fancy:fb_textColor="0x106000b" />
+</LinearLayout>

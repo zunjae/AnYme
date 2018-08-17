@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@+id/fastAnimeSearchToolbar" app:background="@drawable/gradient_background" app:subtitleTextColor="0x106000b" app:title="Local Anime Search" app:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+        <com.miguelcatalan.materialsearchview.MaterialSearchView app:id="@+id/search_view" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    </FrameLayout>
+    <android.support.v7.widget.CardView app:background="#ffffff" app:layout_width="match_parent" app:layout_height="wrap_content" app:elevation="5dp">
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent">
+            <CheckBox app:textSize="16sp" app:id="@+id/filterTV" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:checked="true" app:text="TV" />
+            <CheckBox app:textSize="16sp" app:id="@+id/filterMovies" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:checked="true" app:text="Movies" />
+            <CheckBox app:textSize="16sp" app:id="@+id/filterOther" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:checked="true" app:text="Special/OVA" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <FrameLayout app:id="@+id/fragmentContainerFrameLayout" app:layout_width="match_parent" app:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:md_reduce_padding_no_title_no_buttons="false">
+    <include layout="@layout/md_stub_titleframe" />
+    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/md_dialog_frame_margin" app:paddingTop="@dimen/md_content_padding_top" app:paddingRight="@dimen/md_dialog_frame_margin" app:paddingBottom="@dimen/md_content_padding_bottom" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_weight="1.0">
+        <include layout="@layout/md_stub_progress" />
+    </LinearLayout>
+    <include layout="@layout/md_stub_actionbuttons" />
+</com.afollestad.materialdialogs.internal.MDRootLayout>

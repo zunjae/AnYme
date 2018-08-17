@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:md_reduce_padding_no_title_no_buttons="false">
+    <include layout="@layout/md_stub_titleframe" />
+    <include layout="@layout/md_stub_progress_indeterminate" />
+    <include layout="@layout/md_stub_actionbuttons" />
+</com.afollestad.materialdialogs.internal.MDRootLayout>

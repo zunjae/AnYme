@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="default_background_color">0</integer>
+    <integer name="default_color">0</integer>
+    <integer name="default_contour_color">0</integer>
+    <integer name="default_contour_width">-1</integer>
+    <integer name="default_corner_radius">-1</integer>
+    <integer name="default_padding">-1</integer>
+    <integer name="default_size">-1</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="imageHeight">248</integer>
+    <integer name="imageWidth">180</integer>
+    <integer name="sd_close_animation_duration">200</integer>
+    <integer name="sd_open_animation_duration">150</integer>
+    <integer name="sd_rotate_animation_duration">200</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="span_fast_anime_search_results">1</integer>
+    <integer name="span_fast_anime_search_results">2</integer>
+    <integer name="span_fast_anime_search_results">2</integer>
+    <integer name="span_fast_anime_search_results">1</integer>
+    <integer name="span_optimized_layout">1</integer>
+    <integer name="span_optimized_layout">2</integer>
+    <integer name="span_optimized_layout">2</integer>
+    <integer name="span_optimized_layout">1</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>

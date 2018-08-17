@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/cancel_action" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="match_parent" app:layout_marginLeft="2dp" app:layout_marginRight="2dp" app:src="0x1080038" app:layout_weight="1.0" style="?unknown_attr_ref: 101032b" />

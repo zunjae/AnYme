@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@+id/browser_cast" app:orderInCategory="997" app:title="cast" app:showAsAction="always" />
+    <item app:id="@+id/browser_downloader" app:orderInCategory="998" app:title="@string/actionbar_item_download" app:showAsAction="always" />
+    <item app:id="@+id/browser_open_drawer" app:orderInCategory="999" app:title="@string/actionbar_item_refresh" app:showAsAction="always" />
+</menu>

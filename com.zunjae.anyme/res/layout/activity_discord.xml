@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+    <ImageView fancy:id="@+id/backgroundImage" fancy:layout_width="match_parent" fancy:layout_height="match_parent" fancy:scaleType="centerCrop" fancy:rotation="5.0" />
+    <View fancy:background="@drawable/gradient_background" fancy:layout_width="match_parent" fancy:layout_height="match_parent" />
+    <LinearLayout fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+        <TextView fancy:textSize="40sp" fancy:textStyle="bold" fancy:textColor="0x106000b" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:padding="15dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Join the AnYme chat server!" />
+        <TextView fancy:textSize="15sp" fancy:textStyle="bold" fancy:textColor="0x106000b" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:padding="25dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="- Talk about your favorite Anime, Games or share some of your memes with other AnYme users
+
+- Request new App features or ask for help
+
+- Test out BETA versions of AnYme with new features!" />
+        <mehdi.sakout.fancybuttons.FancyButton fancy:id="@+id/joinButton" fancy:paddingTop="15dp" fancy:paddingBottom="15dp" fancy:layout_width="UNKNOWN_DATA_0x12c01" fancy:layout_height="wrap_content" fancy:layout_margin="7dp" fancy:fb_defaultColor="#f4fffe" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_radius="30dp" fancy:fb_text="JOIN" fancy:fb_textColor="0x106000c" />
+    </LinearLayout>
+</FrameLayout>

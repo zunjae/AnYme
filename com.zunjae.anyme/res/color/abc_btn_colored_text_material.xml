@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:state_enabled="false" app:color="?unknown_attr_ref: 1010036" app:alpha="?unknown_attr_ref: 1010033" />
+    <item app:color="?unknown_attr_ref: 1010039" />
+</selector>

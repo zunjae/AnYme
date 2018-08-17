@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:background="@drawable/gradient_background" app:subtitleTextColor="0x106000b" app:title="My Calendar" app:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+    <android.support.design.widget.TabLayout app:id="@+id/tabLayout" app:background="@drawable/gradient_background" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:tabIndicatorColor="0x106000b" app:tabIndicatorHeight="6dp" app:tabMode="0" app:tabSelectedTextColor="0x106000b" app:tabTextColor="#90ffffff" />
+    <android.support.v4.view.ViewPager app:id="@+id/viewPager" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+</LinearLayout>

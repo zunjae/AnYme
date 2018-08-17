@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+    <View fancy:background="@drawable/gradient_background" fancy:layout_width="match_parent" fancy:layout_height="match_parent" />
+    <LinearLayout fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+        <TextView fancy:textSize="25sp" fancy:textStyle="bold" fancy:textColor="0x106000b" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:padding="10dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Get started with Kanon" />
+        <TextView fancy:textSize="15sp" fancy:textStyle="bold" fancy:textColor="0x106000b" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:padding="25dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="With an account on Kanon you can do more with AnYme such as adding notes to episodes you've watched and keeping a list of your favorite characters. 
+
+This will only takes a few seconds." />
+        <mehdi.sakout.fancybuttons.FancyButton fancy:id="@+id/loginButton" fancy:paddingTop="15dp" fancy:paddingBottom="15dp" fancy:layout_width="UNKNOWN_DATA_0x12c01" fancy:layout_height="wrap_content" fancy:layout_margin="7dp" fancy:fb_defaultColor="#f4fffe" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_radius="30dp" fancy:fb_text="GET STARTED" fancy:fb_textColor="0x106000c" />
+        <TextView fancy:textSize="12sp" fancy:textStyle="UNKNOWN_DATA_0x0" fancy:textColor="0x106000b" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:padding="5dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Find the source code for Kanon on my GitHub page" />
+    </LinearLayout>
+</FrameLayout>

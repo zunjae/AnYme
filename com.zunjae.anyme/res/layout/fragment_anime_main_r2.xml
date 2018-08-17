@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/swipeRefreshLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:id="@+id/nestedScrollView" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Scrollbar">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/better_anime_status_info" />
+            <View android:background="@color/line_separator_dark_mode" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginBottom="5dp" />
+            <Button android:textColor="@color/colorPrimary" android:id="@+id/addToPTW" android:background="@drawable/bordered_button" android:paddingTop="20dp" android:paddingBottom="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="ADD TO PROFILE" />
+            <include layout="@layout/better_anime_actions" />
+            <include layout="@layout/better_anime_additionalinfo" />
+            <include layout="@layout/layout_anime_genres" />
+            <include layout="@layout/better_anime_summary" />
+            <include layout="@layout/anime_characters" />
+            <include layout="@layout/related_anime" />
+            <include layout="@layout/recommended_anime" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

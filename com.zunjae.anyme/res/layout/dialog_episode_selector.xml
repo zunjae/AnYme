@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:orientation="vertical" card_view:background="@color/custom_background" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+    <TextView card_view:id="@+id/title" card_view:text="@string/episode_picker_title" style="@style/DialogTitle" />
+    <android.support.v7.widget.CardView card_view:background="#ffffff" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginBottom="3dp" card_view:elevation="5dp">
+        <CheckBox card_view:textSize="16sp" card_view:id="@+id/checkboxRewatchingAnime" card_view:padding="10dp" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:checked="true" card_view:text="Rewatching" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerView" card_view:padding="3dp" card_view:clipToPadding="false" card_view:layout_width="match_parent" card_view:layout_height="match_parent" />
+</LinearLayout>

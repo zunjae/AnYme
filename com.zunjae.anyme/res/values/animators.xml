@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="design_appbar_state_list_animator">res/animator-v21/design_appbar_state_list_animator.xml</animator>
+</resources>

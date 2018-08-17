@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="About" android:key="@string/preference_about_settings_category">
+        <Preference android:title="GitHub" android:key="@string/preference_key_author" android:summary="https://github.com/zunjae/AnYme" />
+        <Preference android:title="Reddit" android:key="@string/preference_key_reddit" android:summary="https://www.reddit.com/r/AnYme/" />
+        <Preference android:title="Discord" android:key="preference_key_discord" android:summary="Help with the app development by trying out new features before anyone else. Oh, and we got memes and waifus
+
+https://discord.gg/8XtWsfX" />
+        <Preference android:title="Support AnYme" android:key="@string/preference_key_recommend" android:summary="If you want to support this app, please let other people know by linking them to my subreddit /r/anyme." />
+        <Preference android:title="Version: XXX" android:key="@string/preference_key_version_name" />
+    </PreferenceCategory>
+</PreferenceScreen>

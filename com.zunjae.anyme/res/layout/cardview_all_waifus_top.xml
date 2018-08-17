@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" card_view:id="@+id/cardViewContainer" card_view:layout_width="UNKNOWN_DATA_0x7f070094" card_view:layout_height="wrap_content" card_view:layout_margin="4dp" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardCornerRadius="4dp" card_view:cardElevation="0dp" card_view:cardPreventCornerOverlap="false">
+    <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+        <FrameLayout card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+            <ImageView card_view:id="@+id/characterImage" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x7f07004b" card_view:scaleType="centerCrop" card_view:adjustViewBounds="true" />
+            <View card_view:id="@+id/gradientOverlay" card_view:background="@drawable/black_to_trans" card_view:visibility="gone" card_view:layout_width="wrap_content" card_view:layout_height="UNKNOWN_DATA_0x3201" />
+            <com.github.ivbaranov.mfb.MaterialFavoriteButton card_view:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/favoriteButton" card_view:layout_width="UNKNOWN_DATA_0x3201" card_view:layout_height="UNKNOWN_DATA_0x3201" card_view:mfb_animate_favorite="false" card_view:mfb_animate_unfavorite="false" card_view:mfb_color="1" card_view:mfb_padding="5" card_view:mfb_size="37" card_view:mfb_type="1" />
+        </FrameLayout>
+        <TextView card_view:textSize="@dimen/animeName" card_view:textStyle="bold" card_view:ellipsize="end" card_view:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:id="@+id/characterName" card_view:paddingLeft="5dp" card_view:paddingTop="5dp" card_view:paddingRight="5dp" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x7f070095" card_view:text="Anime Name" card_view:maxLines="2" />
+        <com.mikepenz.iconics.view.IconicsTextView card_view:textSize="@dimen/animeName" card_view:textStyle="bold" card_view:id="@+id/waifuStars" card_view:paddingLeft="3dp" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="5dp" card_view:text=" {faw-heart} " />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

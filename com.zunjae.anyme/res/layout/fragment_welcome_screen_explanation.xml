@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/backgroundImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <View android:background="#17000000" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="15sp" android:textColor="@color/md_white_1000" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/welcomeScreenText" android:background="#90000000" android:padding="7dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="WELCOME TO ANYME" />
+</FrameLayout>

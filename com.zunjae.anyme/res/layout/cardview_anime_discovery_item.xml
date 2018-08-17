@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" card_view:id="@+id/cardViewContainer" card_view:clickable="true" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_margin="5dp" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardCornerRadius="10dp" card_view:cardElevation="5dp" card_view:cardPreventCornerOverlap="false">
+    <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+        <ImageView card_view:id="@+id/animeCoverImage" card_view:layout_width="UNKNOWN_DATA_0x6e01" card_view:layout_height="UNKNOWN_DATA_0x8c01" card_view:scaleType="centerCrop" />
+        <LinearLayout card_view:orientation="vertical" card_view:padding="8dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+            <TextView card_view:textSize="18sp" card_view:textStyle="bold" card_view:id="@+id/seriesTitle" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="2" />
+            <View card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="1.0" />
+            <TextView card_view:textSize="15sp" card_view:textStyle="bold" card_view:id="@+id/description" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="4" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

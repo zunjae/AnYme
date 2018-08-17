@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="5" android:versionName="5.9" package="com.zunjae.anyme" platformBuildVersionCode="5" platformBuildVersionName="5.9">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:theme="@style/AppThemeDark" android:label="@string/app_name" android:icon="@mipmap/newappicon" android:name="com.zunjae.anyme.AnYmeApp" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:theme="@style/AppTheme_Launcher" android:name="com.zunjae.anyme.AnymeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zunjae.anyme.activities.explore.VideosActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.NewsActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.settings.DebugActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.settings.CustomizeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.misc.DiscordExplanationActivity" />
+        <activity android:name="com.zunjae.anyme.activities.misc.TroubleshootActivity" />
+        <activity android:name="com.zunjae.anyme.activities.explore.SongsActivity" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.LoginActivityR2" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.UserRecommendationsActivity" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.CharactersActivityR2" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.RelatedAnimeActivityR2" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.AnimeRecommendationsActivityR2" />
+        <activity android:name="com.zunjae.anyme.activities.explore.SeasonalAnimeActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.LoginActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.settings.OptimizeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.settings.UserSettingsActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.MainActivityR2" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.FavoritesActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.rewrite.activities.AnimeInfoActivityR2" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.misc.BulkDeleteActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.zunjae.anyme.activities.explore.DiscoveryActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.DiscoveryListActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.LocalAnimeSearchActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.GenreSearchActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.CategoryItemsActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.MyCalendarActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.FastAnimeSearchActivity" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.misc.KanonExplanation" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <service android:name="com.zunjae.anyme.services.UpdaterService" android:exported="false" />
+        <service android:name="com.zunjae.anyme.services.HHCustomJSService" android:exported="false" />
+        <service android:name="com.zunjae.anyme.services.AdBlockerService" android:exported="false" />
+        <service android:name="com.zunjae.anyme.services.BulkDeleteAnimeService" android:exported="false" />
+        <service android:name="com.zunjae.anyme.services.BulkAddShowsService" android:exported="false" />
+        <activity android:name="com.zunjae.anyme.activities.MalActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="https" android:host="myanimelist.net" android:pathPrefix="/anime" />
+                <data android:scheme="https" android:host="myanimelist.net" android:pathPrefix="/character" />
+                <data android:scheme="https" android:host="myanimelist.net" android:pathPrefix="/news" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zunjae.anyme.activities.explore.AdvancedAnimeSearch" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.misc.AuthUserActivity" android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="https" android:host="kanonapp.com" android:pathPrefix="/redirect" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zunjae.anyme.activities.browsers.ZeroChanBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.explore.BetterAdvancedSearchActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.NineAnimeBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.UserLoginBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.light_browsers.KissAsianBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.BasicWebViewBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.AnimeFLVBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.TwistMoeBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.RyuAnimeBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.KissBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.MasterAnimeBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.nsfw.HHBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.AnimeHeavenBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.GoGoBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.UnKissAnime" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.ChiaAnimeBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.nsfw.HGBrowser" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.nsfw.HABrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.nsfw.HPBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.light_browsers.LightKissBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.AnimePaheBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.nsfw.HMBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.nsfw.SHMBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.nsfw.KHBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:name="com.zunjae.anyme.activities.browsers.SearchResultsBrowser" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <meta-data android:name="io.fabric.ApiKey" android:value="b9873efbc65c2df3179b71c9435607bc976bf2c0" />
+        <provider android:name="com.crashlytics.android.CrashlyticsInitProvider" android:exported="false" android:authorities="com.zunjae.anyme.crashlyticsinitprovider" android:initOrder="100" />
+        <provider android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.zunjae.anyme.lifecycle-trojan" />
+    </application>
+</manifest>

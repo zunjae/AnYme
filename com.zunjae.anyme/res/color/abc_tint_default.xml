@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:state_enabled="false" app:color="?attr/colorControlNormal" app:alpha="?unknown_attr_ref: 1010033" />
+    <item app:state_focused="true" app:color="?attr/colorControlActivated" />
+    <item app:state_pressed="true" app:color="?attr/colorControlActivated" />
+    <item app:color="?attr/colorControlActivated" app:state_activated="true" />
+    <item app:state_selected="true" app:color="?attr/colorControlActivated" />
+    <item app:state_checked="true" app:color="?attr/colorControlActivated" />
+    <item app:color="?attr/colorControlNormal" />
+</selector>

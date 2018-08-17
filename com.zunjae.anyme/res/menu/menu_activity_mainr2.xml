@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@+id/actionbar_discover" app:title="@string/actionbar_item_add" app:showAsAction="always" />
+    <item app:id="@+id/actionbar_search" app:title="@string/actionbar_item_refresh" app:showAsAction="always" />
+    <item app:id="@+id/actionbar_refresh" app:title="@string/actionbar_item_refresh" app:showAsAction="always" />
+    <item app:id="@+id/actionbar_sort" app:title="@string/actionbar_sort_anime" app:showAsAction="always">
+        <menu>
+            <item app:id="@+id/item_names_asc" app:title="@string/actionbar_names_asc" app:showAsAction="always" />
+            <item app:id="@+id/item_names_desc" app:title="@string/actionbar_names_desc" app:showAsAction="always" />
+            <item app:id="@+id/item_score_asc" app:title="@string/actionbar_score_asc" app:showAsAction="always" />
+            <item app:id="@+id/item_score_desc" app:title="@string/actionbar_score_desc" app:showAsAction="always" />
+            <item app:id="@+id/item_lastupdated_asc" app:title="@string/actionbar_modified_asc" app:showAsAction="always" />
+            <item app:id="@+id/item_lastupdated_desc" app:title="@string/actionbar_modified_desc" app:showAsAction="always" />
+            <item app:id="@+id/item_episodes_asc" app:title="@string/episodes_asc" app:showAsAction="always" />
+            <item app:id="@+id/item_episodes_desc" app:title="@string/episodes_desc" app:showAsAction="always" />
+            <item app:id="@+id/item_progress_asc" app:title="@string/progress_asc" app:showAsAction="always" />
+            <item app:id="@+id/item_progress_desc" app:title="@string/progress_Desc" app:showAsAction="always" />
+            <item app:id="@+id/item_start_date_asc" app:title="@string/start_date_asc" app:showAsAction="always" />
+            <item app:id="@+id/item_start_date_desc" app:title="@string/start_date_desc" app:showAsAction="always" />
+            <item app:id="@+id/item_next_release_day_asc" app:title="@string/nextRelease" app:showAsAction="always" />
+            <item app:id="@+id/item_next_release_day_desc" app:title="@string/nextReleaseDesc" app:showAsAction="always" />
+        </menu> />
+</menu>

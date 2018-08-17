@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+    <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar card_view:id="@+id/mainActivityToolbar" card_view:background="@drawable/gradient_background" card_view:subtitleTextColor="0x106000b" card_view:title="Advanced Search" card_view:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+        <LinearLayout card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="5dp" card_view:layout_marginTop="5dp" card_view:layout_marginRight="5dp">
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewGenre" card_view:focusable="true" card_view:clickable="true" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_margin="5dp" card_view:layout_weight="1.0" card_view:cardCornerRadius="4dp" card_view:cardPreventCornerOverlap="false" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:padding="15dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                    <TextView card_view:textSize="21sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="15dp" card_view:text="Genres" />
+                    <TextView card_view:id="@+id/textSelectedGenres" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="0 genres selected" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewRating" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_margin="5dp" card_view:layout_weight="1.0" card_view:cardCornerRadius="4dp" card_view:cardPreventCornerOverlap="false" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:padding="15dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                    <TextView card_view:textSize="21sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="15dp" card_view:text="Rating" />
+                    <TextView card_view:id="@+id/ratingText" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="No rating selected" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="5dp" card_view:layout_marginRight="5dp">
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewStatus" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_margin="5dp" card_view:layout_weight="1.0" card_view:cardCornerRadius="4dp" card_view:cardPreventCornerOverlap="false" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:padding="15dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                    <TextView card_view:textSize="21sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="15dp" card_view:text="Status" />
+                    <TextView card_view:id="@+id/statusText" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="No status selected" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewScore" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_margin="5dp" card_view:layout_weight="1.0" card_view:cardCornerRadius="4dp" card_view:cardPreventCornerOverlap="false" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:padding="15dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                    <TextView card_view:textSize="21sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="15dp" card_view:text="Score" />
+                    <TextView card_view:id="@+id/scoreText" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="No minimum score selected" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton card_view:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/fabFavorite" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_margin="16dp" card_view:src="@drawable/discord" card_view:fabSize="-1" />
+</FrameLayout>

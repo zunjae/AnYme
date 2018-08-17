@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+    <FrameLayout fancy:layout_width="match_parent" fancy:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar fancy:id="@+id/toolbar" fancy:background="@drawable/gradient_background" fancy:subtitleTextColor="0x106000b" fancy:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+        <include layout="@layout/progressbar_browser" />
+    </FrameLayout>
+    <FrameLayout fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+        <WebView fancy:id="@+id/webView" fancy:layout_width="match_parent" fancy:layout_height="match_parent" />
+        <mehdi.sakout.fancybuttons.FancyButton fancy:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" fancy:padding="10dp" fancy:visibility="gone" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_margin="10dp" fancy:fb_borderWidth="1dp" fancy:fb_defaultColor="#5178d1" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_fontIconResource="" fancy:fb_fontIconSize="16dp" fancy:fb_iconPaddingRight="10dp" fancy:fb_iconPosition="1" fancy:fb_radius="3dp" fancy:fb_text="Add" />
+    </FrameLayout>
+</LinearLayout>

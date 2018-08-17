@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:enabled="true" android:checked="true" android:title="Add AnYme in tags" android:key="@string/preference_key_add_anyme_in_tags" android:summary="Automatically add 'AnYme' and 'AnYmeapp.com' in the tags for every Anime you update. This settings helps AnYme appear in search engines." />
+</PreferenceScreen>

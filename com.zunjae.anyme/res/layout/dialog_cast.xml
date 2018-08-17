@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:orientation="vertical" card_view:background="@color/custom_background" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+    <TextView card_view:text="Choose your casting app" style="@style/DialogTitle" />
+    <android.support.v7.widget.CardView card_view:background="#ffffff" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:elevation="5dp">
+        <CheckBox card_view:textSize="16sp" card_view:id="@+id/rememberCastingApp" card_view:padding="10dp" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:checked="false" card_view:text="Remember Casting App" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerView" card_view:layout_width="match_parent" card_view:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+</LinearLayout>
