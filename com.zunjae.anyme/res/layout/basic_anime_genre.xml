@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" fancy:orientation="vertical" fancy:layout_width="wrap_content" fancy:layout_height="wrap_content">
+    <mehdi.sakout.fancybuttons.FancyButton fancy:id="@+id/genreButton" fancy:paddingLeft="20dp" fancy:paddingTop="7dp" fancy:paddingRight="20dp" fancy:paddingBottom="7dp" fancy:layout_width="wrap_content" fancy:layout_height="wrap_content" fancy:layout_marginLeft="5dp" fancy:layout_marginRight="5dp" fancy:layout_marginBottom="5dp" fancy:fb_defaultColor="@color/colorAccent" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_radius="30dp" fancy:fb_text="Action" />
+</LinearLayout>

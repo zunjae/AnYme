@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Video Downloader" android:key="category_downloading">
+        <CheckBoxPreference android:title="Alternative Downloader" android:key="preference_key_alternative_downloader2" android:summary="Save shows in separate folders. Example: downloaded videos from Naruto go to
+/AnYmeVids/Shuffle/Episode 1" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="ZeroChan Image Downloader" android:key="@string/preference_zerochan_downloader">
+        <CheckBoxPreference android:title="Download HQ Photos" android:key="preference_key_zerochan_high_quality" android:summary="Download High Quality images on ZeroChan. Images will use more storage" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Download To Separate Folders" android:key="preference_key_zerochan_separate_images" android:summary="Create a new folder per Anime" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

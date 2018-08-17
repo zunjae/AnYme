@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/swipeRefreshLayout" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <android.support.v4.widget.NestedScrollView app:id="@+id/nestedScrollView" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/Scrollbar">
+        <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/fragment_discovery_content_padding" app:paddingRight="@dimen/fragment_discovery_content_padding" app:paddingBottom="@dimen/fragment_discovery_content_padding" app:layout_width="match_parent" app:layout_height="match_parent">
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewContainerSuggestions" card_view:background="#d4ffffff" card_view:padding="4dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="12dp" card_view:layout_marginRight="12dp" card_view:cardCornerRadius="5dp" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                    <TextView card_view:textSize="22sp" card_view:textStyle="bold" card_view:padding="12dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="Discord Suggestions" card_view:maxLines="1" />
+                    <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerViewDiscordSuggestion" card_view:padding="4dp" card_view:scrollbars="horizontal" card_view:clipToPadding="false" card_view:layout_width="match_parent" card_view:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewContainerAiring" card_view:background="#d4ffffff" card_view:padding="4dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="12dp" card_view:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" card_view:layout_marginRight="12dp" card_view:cardCornerRadius="5dp" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+                    <LinearLayout card_view:orientation="horizontal" card_view:padding="12dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                        <TextView card_view:textSize="22sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="Top Airing" card_view:maxLines="1" />
+                        <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_weight="1.0" />
+                        <TextView card_view:textSize="15sp" card_view:textColor="?unknown_attr_ref: 1010098" card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:id="@+id/moreInfoTopAiringAnime" card_view:layout_width="wrap_content" card_view:layout_height="match_parent" card_view:layout_marginTop="4dp" card_view:text="@string/true_more_info" />
+                    </LinearLayout>
+                    <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerViewTopAiring" card_view:padding="4dp" card_view:scrollbars="horizontal" card_view:clipToPadding="false" card_view:layout_width="match_parent" card_view:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewContainerUpcoming" card_view:background="#d4ffffff" card_view:padding="4dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="12dp" card_view:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" card_view:layout_marginRight="12dp" card_view:cardCornerRadius="5dp" card_view:elevation="5dp">
+                <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+                    <LinearLayout card_view:orientation="horizontal" card_view:padding="12dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                        <TextView card_view:textSize="22sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="Top Upcoming" card_view:maxLines="1" />
+                        <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_weight="1.0" />
+                        <TextView card_view:textSize="15sp" card_view:textColor="?unknown_attr_ref: 1010098" card_view:id="@+id/moreInfoTopUpcomingAnime" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="@string/true_more_info" />
+                    </LinearLayout>
+                    <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerViewTopUpcoming" card_view:padding="4dp" card_view:scrollbars="horizontal" card_view:clipToPadding="false" card_view:layout_width="match_parent" card_view:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewContainerTop" card_view:background="#d4ffffff" card_view:padding="4dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="12dp" card_view:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" card_view:layout_marginRight="12dp" card_view:cardCornerRadius="5dp" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+                    <LinearLayout card_view:orientation="horizontal" card_view:padding="12dp" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content">
+                        <TextView card_view:textSize="22sp" card_view:textStyle="bold" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="Top Anime" card_view:maxLines="1" />
+                        <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_weight="1.0" />
+                        <TextView card_view:textSize="15sp" card_view:textColor="?unknown_attr_ref: 1010098" card_view:id="@+id/moreInfoTopAnime" card_view:layout_width="wrap_content" card_view:layout_height="match_parent" card_view:layout_marginTop="4dp" card_view:text="@string/true_more_info" />
+                    </LinearLayout>
+                    <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerViewTopAll" card_view:padding="4dp" card_view:scrollbars="horizontal" card_view:clipToPadding="false" card_view:layout_width="match_parent" card_view:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewContainerUserRecommendations" card_view:background="#d4ffffff" card_view:padding="4dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="12dp" card_view:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" card_view:layout_marginRight="12dp" card_view:cardCornerRadius="5dp" card_view:elevation="8dp">
+                <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+                    <LinearLayout card_view:orientation="horizontal" card_view:padding="12dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                        <TextView card_view:textSize="22sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="Recommended for you" card_view:maxLines="1" />
+                        <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_weight="1.0" />
+                        <TextView card_view:textSize="15sp" card_view:textColor="?unknown_attr_ref: 1010098" card_view:id="@+id/moreInfoRecommended" card_view:layout_width="wrap_content" card_view:layout_height="match_parent" card_view:layout_marginTop="4dp" card_view:text="@string/see_all" />
+                    </LinearLayout>
+                    <FrameLayout card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                        <TextView card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/messageUserRecommendations" card_view:padding="10dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent" />
+                        <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerViewRecommendations" card_view:padding="4dp" card_view:scrollbars="horizontal" card_view:clipToPadding="false" card_view:layout_width="match_parent" card_view:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+                    </FrameLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView card_view:id="@+id/cardViewContainerWaifus" card_view:background="#d4ffffff" card_view:padding="4dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="12dp" card_view:layout_marginTop="@dimen/fragment_discovery_cardview_margin_top" card_view:layout_marginRight="12dp" card_view:layout_marginBottom="12dp" card_view:cardCornerRadius="5dp" card_view:elevation="5dp">
+                <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+                    <LinearLayout card_view:orientation="horizontal" card_view:padding="12dp" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                        <TextView card_view:textSize="22sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="Top Waifus in AnYme" card_view:maxLines="1" />
+                        <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_weight="1.0" />
+                    </LinearLayout>
+                    <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerViewTopWaifus" card_view:padding="4dp" card_view:scrollbars="horizontal" card_view:clipToPadding="false" card_view:layout_width="match_parent" card_view:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <TextView android:textSize="20sp" android:textColor="?unknown_attr_ref: 1010098" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/errorMessage" android:padding="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Could not connect to the server. Swipe down to try again." />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

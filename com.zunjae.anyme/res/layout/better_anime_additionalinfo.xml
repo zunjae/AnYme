@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="@dimen/cardview_lr_padding" card_view:layout_marginRight="@dimen/cardview_lr_padding" card_view:layout_marginBottom="7dp" card_view:cardCornerRadius="4dp" card_view:cardPreventCornerOverlap="false" card_view:elevation="8dp">
+    <LinearLayout card_view:orientation="vertical" card_view:padding="12dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+        <LinearLayout card_view:layout_width="wrap_content" card_view:layout_height="wrap_content">
+            <TextView card_view:textSize="21sp" card_view:textStyle="bold" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="15dp" card_view:text="Info" />
+            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="1.0" />
+            <TextView card_view:textSize="14sp" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/buttonOpenMyAnimeList" card_view:layout_width="wrap_content" card_view:layout_height="match_parent" card_view:layout_marginBottom="15dp" card_view:text="@string/open_myanimelist" />
+        </LinearLayout>
+        <ProgressBar card_view:id="@+id/progressBarAdditionalInfo" card_view:visibility="gone" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:indeterminate="true" />
+        <android.support.v7.widget.RecyclerView card_view:id="@+id/recyclerView" card_view:layout_width="match_parent" card_view:layout_height="match_parent" />
+        <TextView card_view:textSize="14sp" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/additionalInfoErrorMessage" card_view:visibility="gone" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:maxLines="2" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

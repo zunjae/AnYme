@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:md_reduce_padding_no_title_no_buttons="false">
+    <include layout="@layout/md_stub_titleframe" />
+    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/md_dialog_frame_margin" app:paddingTop="@dimen/md_content_padding_top" app:paddingRight="@dimen/md_dialog_frame_margin" app:paddingBottom="@dimen/md_content_padding_bottom" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+        <TextView app:textSize="@dimen/md_content_textsize" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/md_content" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="4dp" app:layout_marginBottom="@dimen/md_content_padding_bottom" app:fontFamily="sans-serif" />
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+            <EditText app:textSize="@dimen/md_content_textsize" app:id="0x1020009" app:focusable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="-2dp" app:layout_marginRight="-2dp" app:layout_marginBottom="1dp" />
+            <TextView app:textSize="12sp" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/md_minMax" app:paddingRight="4dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="48dp" app:layout_below="0x1020009" app:layout_alignRight="0x1020009" app:fontFamily="sans-serif" app:textAlignment="viewEnd" app:paddingEnd="4dp" app:layout_alignEnd="0x1020009" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/md_stub_actionbuttons" />
+</com.afollestad.materialdialogs.internal.MDRootLayout>

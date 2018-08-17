@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:background="@drawable/gradient_background" app:subtitleTextColor="0x106000b" app:title="Fast Anime Search" app:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+        <com.miguelcatalan.materialsearchview.MaterialSearchView app:id="@+id/search_view" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Enter a title here" />
+    </FrameLayout>
+    <android.support.v7.widget.CardView app:background="#ffffff" app:layout_width="match_parent" app:layout_height="wrap_content" app:elevation="5dp">
+        <LinearLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <CheckBox app:textSize="16sp" app:id="@+id/hideAlreadyAddedCheckBox" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:checked="true" app:text="Hide Already Added" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <FrameLayout app:id="@+id/fragmentContainerFrameLayout" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    <TextView app:id="@+id/numberOfRemovedShows" app:padding="10dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Number of (NSFW) removed shows: 2" />
+    <android.support.v4.widget.SwipeRefreshLayout app:id="@+id/swipeRefreshLayout" app:layout_width="match_parent" app:layout_height="match_parent">
+        <FrameLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView app:id="@+id/recyclerView" app:padding="4dp" app:scrollbars="vertical" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/RecyclerViewScrollbar" />
+            <TextView app:textSize="19sp" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/information" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="15dp" app:text="Use the Search Button to find Anime from MyAnimeList" />
+        </FrameLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

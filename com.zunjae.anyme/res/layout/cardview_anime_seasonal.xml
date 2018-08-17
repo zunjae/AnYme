@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" fancy:background="#07000000" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_margin="5dp" fancy:cardCornerRadius="10dp" fancy:cardElevation="5dp" fancy:cardPreventCornerOverlap="false">
+    <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent"
+        <LinearLayout fancy:orientation="vertical" fancy:paddingLeft="5dp" fancy:paddingRight="5dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_marginTop="3dp">
+            <TextView fancy:textSize="15sp" fancy:textStyle="bold" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:id="@+id/title" fancy:paddingLeft="10dp" fancy:paddingRight="10dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Anime Placeholder" fancy:maxLines="1" />
+            <TextView fancy:textSize="12sp" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:id="@+id/animeStatus" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Movie | 13 Eps | Finished Airing" />
+            <TextView fancy:textSize="12sp" fancy:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" fancy:id="@+id/animeGenres" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="(00-00-0000 - 00-00-0000)" />
+            <View fancy:background="#1d151414" fancy:layout_width="match_parent" fancy:layout_height="UNKNOWN_DATA_0x101" fancy:layout_margin="5dp" />
+        </LinearLayout>
+        <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent"
+            <LinearLayout fancy:orientation="horizontal" fancy:padding="5dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content">
+                <ImageView fancy:id="@+id/animeImage" fancy:layout_width="UNKNOWN_DATA_0x5a01" fancy:layout_height="UNKNOWN_DATA_0x7801" fancy:scaleType="centerCrop" />
+                <LinearLayout fancy:orientation="vertical" fancy:paddingLeft="4dp" fancy:paddingRight="4dp" fancy:paddingBottom="4dp" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+                    <TextView fancy:textSize="15sp" fancy:textStyle="bold" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Synopsis" />
+                    <FrameLayout fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+                        <TextView fancy:textSize="14sp" fancy:id="@+id/synopsis" fancy:background="?attr/selectableItemBackground" fancy:clickable="true" fancy:layout_width="match_parent" fancy:layout_height="match_parent" />
+                        <View fancy:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" fancy:id="@+id/transparentToWhiteView" fancy:layout_width="match_parent" fancy:layout_height="UNKNOWN_DATA_0x3201" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout fancy:orientation="horizontal" fancy:layout_width="match_parent" fancy:layout_height="wrap_content">
+                <mehdi.sakout.fancybuttons.FancyButton fancy:id="@+id/addToPtwButton" fancy:padding="5dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_weight="1.0" fancy:fb_defaultColor="@color/colorPrimary" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_fontIconResource="" fancy:fb_fontIconSize="16dp" fancy:fb_iconPaddingRight="10dp" fancy:fb_iconPosition="1" fancy:fb_text="Add to Profile" />
+                <mehdi.sakout.fancybuttons.FancyButton fancy:id="@+id/moreInfoButton" fancy:padding="5dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_weight="1.0" fancy:fb_defaultColor="@color/colorPrimary" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_fontIconResource="" fancy:fb_fontIconSize="16dp" fancy:fb_iconPaddingRight="10dp" fancy:fb_iconPosition="1" fancy:fb_text="More Info" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

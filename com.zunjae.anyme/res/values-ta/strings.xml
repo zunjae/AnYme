@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">முகப்பிற்கு வழிசெலுத்து</string>
+    <string name="abc_action_bar_up_description">மேலே வழிசெலுத்து</string>
+    <string name="abc_action_menu_overflow_description">மேலும் விருப்பங்கள்</string>
+    <string name="abc_action_mode_done">முடிந்தது</string>
+    <string name="abc_activity_chooser_view_see_all">எல்லாம் காட்டு</string>
+    <string name="abc_activitychooserview_choose_application">பயன்பாட்டைத் தேர்வுசெய்க</string>
+    <string name="abc_capital_off">ஆஃப்</string>
+    <string name="abc_capital_on">ஆன்</string>
+    <string name="abc_search_hint">தேடு...</string>
+    <string name="abc_searchview_description_clear">வினவலை அழி</string>
+    <string name="abc_searchview_description_query">தேடல் வினவல்</string>
+    <string name="abc_searchview_description_search">தேடு</string>
+    <string name="abc_searchview_description_submit">வினவலைச் சமர்ப்பி</string>
+    <string name="abc_searchview_description_voice">குரல் தேடல்</string>
+    <string name="abc_shareactionprovider_share_with">இதனுடன் பகிர்</string>
+    <string name="abc_shareactionprovider_share_with_application">%s மூலம் பகிர்</string>
+    <string name="abc_toolbar_collapse_description">சுருக்கு</string>
+    <string name="search_menu_title">தேடு</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

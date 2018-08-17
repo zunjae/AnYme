@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" attrs:orientation="vertical" attrs:layout_width="match_parent" attrs:layout_height="match_parent">
+    <FrameLayout attrs:layout_width="match_parent" attrs:layout_height="UNKNOWN_DATA_0x1" attrs:layout_weight="4.0">
+        <android.support.v4.view.ViewPager attrs:id="@+id/viewPager" attrs:layout_width="match_parent" attrs:layout_height="match_parent" />
+        <com.rd.PageIndicatorView attrs:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" attrs:id="@+id/pageIndicatorView" attrs:layout_width="wrap_content" attrs:layout_height="wrap_content" attrs:layout_marginTop="16dp" attrs:piv_animationType="3" attrs:piv_dynamicCount="true" attrs:piv_interactiveAnimation="true" attrs:piv_padding="12dp" attrs:piv_radius="8dp" attrs:piv_selectedColor="#fff" attrs:piv_unselectedColor="#969c9c9c" attrs:piv_viewPager="@+id/viewPager" />
+    </FrameLayout>
+    <RelativeLayout attrs:layout_width="match_parent" attrs:layout_height="UNKNOWN_DATA_0x1" attrs:layout_weight="1.0">
+        <TextView attrs:textColor="@color/colorPrimary" attrs:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" attrs:layout_width="match_parent" attrs:layout_height="match_parent" attrs:text="@string/openKissAnime" attrs:layout_above="@+id/buttonsLayout" />
+        <LinearLayout attrs:orientation="horizontal" attrs:id="@+id/buttonsLayout" attrs:layout_width="match_parent" attrs:layout_height="wrap_content" attrs:layout_alignParentBottom="true" attrs:layout_alignParentStart="true">
+            <Button attrs:id="@+id/registerButton" attrs:padding="10dp" attrs:layout_width="UNKNOWN_DATA_0x1" attrs:layout_height="wrap_content" attrs:layout_margin="10dp" attrs:text="Register" attrs:layout_weight="1.0" style="@style/Widget_AppCompat_Button_Colored" />
+            <Button attrs:id="@+id/loginButton" attrs:layout_width="UNKNOWN_DATA_0x1" attrs:layout_height="wrap_content" attrs:layout_marginTop="10dp" attrs:layout_marginRight="10dp" attrs:layout_marginBottom="10dp" attrs:text="Login" attrs:layout_weight="2.0" style="@style/Widget_AppCompat_Button_Colored" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

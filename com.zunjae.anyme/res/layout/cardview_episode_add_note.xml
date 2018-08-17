@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" card_view:id="@+id/cardViewContainer" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_margin="5dp" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardCornerRadius="5dp" card_view:cardElevation="5dp" card_view:cardPreventCornerOverlap="false">
+    <LinearLayout card_view:orientation="vertical" card_view:padding="10dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+            <TextView card_view:textSize="15sp" card_view:textStyle="bold" card_view:id="@+id/episodeNumber" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:text="Episode 1" card_view:layout_weight="1.0" />
+            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" />
+            <TextView card_view:textStyle="italic" card_view:id="@+id/episodeNoteCreated" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:hint="January 10" card_view:layout_weight="1.0" card_view:textAlignment="textEnd" />
+        </LinearLayout>
+        <TextView card_view:id="@+id/episodeNote" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginTop="10dp" card_view:hint="Tap to add a note" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

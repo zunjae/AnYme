@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="settings_about">res/xml/settings_about.xml</xml>
+    <xml name="settings_appearance">res/xml/settings_appearance.xml</xml>
+    <xml name="settings_downloading">res/xml/settings_downloading.xml</xml>
+    <xml name="settings_main">res/xml/settings_main.xml</xml>
+    <xml name="settings_misc">res/xml/settings_misc.xml</xml>
+    <xml name="settings_storage">res/xml/settings_storage.xml</xml>
+    <xml name="settings_streaming">res/xml/settings_streaming.xml</xml>
+    <xml name="settings_support">res/xml/settings_support.xml</xml>
+</resources>

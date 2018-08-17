@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/viewGroupNoAnimeHere" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/content_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title:" />
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/content_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="Some text goes here and when it gets really big this will happen wew lad I have no idea what to write here but it works so that is nice" android:layout_weight="1.0" android:layout_marginStart="25dp" />
+    </LinearLayout>
+    <View android:id="@+id/lineSeparator" android:background="@color/line_separator_dark_mode" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+</LinearLayout>

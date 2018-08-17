@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_margin="3dp" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardCornerRadius="3dp" card_view:cardElevation="3dp" card_view:cardPreventCornerOverlap="false">
+    <LinearLayout card_view:orientation="horizontal" card_view:id="@+id/cardViewContainer" card_view:padding="5dp" card_view:focusable="true" card_view:clickable="true" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:foreground="?unknown_attr_ref: 101030e"
+        <LinearLayout card_view:orientation="vertical" card_view:paddingLeft="5dp" card_view:paddingRight="5dp" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="wrap_content" card_view:layout_weight="1.0">
+            <TextView card_view:textSize="17sp" card_view:textStyle="bold" card_view:id="@+id/animeAltName" card_view:padding="1dp" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="placeHolderGoesHere" card_view:maxLines="3" />
+            <TextView card_view:textSize="12sp" card_view:id="@+id/animeUrl" card_view:padding="1dp" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="Episode 001" card_view:maxLines="2" />
+        </LinearLayout>
+        <ImageButton card_view:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/deleteEntryButton" card_view:background="?unknown_attr_ref: 101030e" card_view:padding="3dp" card_view:layout_width="UNKNOWN_DATA_0x1e01" card_view:layout_height="UNKNOWN_DATA_0x1e01" card_view:src="@drawable/delete" card_view:scaleType="centerCrop" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

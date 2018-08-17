@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+    <TextView fancy:text="Get Notified" style="@style/DialogTitle" />
+    <android.support.v7.widget.CardView fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_margin="7dp" fancy:elevation="5dp">
+        <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+            <TextView fancy:textSize="17sp" fancy:padding="10dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="How many episodes do you think this Anime will have?" />
+            <Spinner fancy:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" fancy:id="@+id/numberPicker" fancy:layout_width="wrap_content" fancy:layout_height="wrap_content" fancy:spinnerMode="dialog" />
+            <mehdi.sakout.fancybuttons.FancyButton fancy:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" fancy:id="@+id/notifyButton" fancy:padding="10dp" fancy:paddingBottom="15dp" fancy:layout_width="UNKNOWN_DATA_0x9601" fancy:layout_height="wrap_content" fancy:layout_marginTop="20dp" fancy:layout_marginBottom="15dp" fancy:fb_defaultColor="@color/colorPrimary" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_radius="20dp" fancy:fb_text="Notify Me" fancy:fb_textColor="0x106000b" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

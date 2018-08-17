@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Streaming" android:key="preference_streaming_streaming_category">
+        <Preference android:title="Remove Default Quality" android:key="preference_key_remove_default_quality" />
+        <CheckBoxPreference android:title="Fix Video Player Not Opening" android:key="@string/preference_key_force_mx_player" android:summary="@string/preference_key_force_mx_player_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Casting" android:key="preference_casting_category">
+        <Preference android:title="Remove Default Casting App" android:key="preference_key_default_cast_app" />
+    </PreferenceCategory>
+</PreferenceScreen>

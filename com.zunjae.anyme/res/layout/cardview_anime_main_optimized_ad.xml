@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" card_view:id="@+id/cardViewContainer" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_margin="5dp" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardCornerRadius="10dp" card_view:cardElevation="5dp" card_view:cardPreventCornerOverlap="false">
+    <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+        <ImageView card_view:id="@+id/kanonImage" card_view:layout_width="UNKNOWN_DATA_0x5a01" card_view:layout_height="UNKNOWN_DATA_0x5a01" card_view:scaleType="centerCrop" />
+        <LinearLayout card_view:orientation="vertical" card_view:padding="5dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+            <TextView card_view:textSize="16sp" card_view:textStyle="bold" card_view:textColor="#00b3fd" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:text="Kanon" />
+            <TextView card_view:textSize="12sp" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:layout_marginTop="3dp" card_view:text="With an account on Kanon you'll get the most out of AnYme! Click here to get started" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

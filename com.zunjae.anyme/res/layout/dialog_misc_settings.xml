@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+    <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="wrap_content">
+        <TextView fancy:id="@+id/title" fancy:text="Misc. Settings For This Anime" style="@style/DialogTitle" />
+        <android.support.v7.widget.CardView fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_margin="7dp" fancy:elevation="5dp">
+            <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+                <TextView fancy:background="@color/colorAccent" fancy:text="Skip Intro" style="@style/DialogTitle" />
+                <RadioGroup android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@+id/skipIntro0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:checked="true" android:text="0s" android:layout_weight="1.0" />
+                    <RadioButton android:id="@+id/skipIntro30" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="30s" android:layout_weight="1.0" />
+                    <RadioButton android:id="@+id/skipIntro60" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="60s" android:layout_weight="1.0" />
+                    <RadioButton android:id="@+id/skipIntro90" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="90s" android:layout_weight="1.0" />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="7dp" android:elevation="5dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:background="@color/colorAccent" android:text="Comments" style="@style/DialogTitle" />
+                <EditText android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:hint="Enter your comments here" android:maxLines="3" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="7dp" android:elevation="5dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:background="@color/colorAccent" android:text="Sync Incorrect Episode Count" style="@style/DialogTitle" />
+                <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="16sp" android:textStyle="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add X episodes so that the streaming site can automatically click on the correct episode." />
+                    <EditText android:id="@+id/userInputAnimeSync" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="0" android:maxLength="4" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+                    <TextView android:textSize="12sp" android:textStyle="italic" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Example: MAL thinks the Anime starts at episode 1 but KissAnime starts counting from Episode 13. In this case you enter 12" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@+id/saveAndUpdate" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="10dp" android:layout_marginRight="7dp" android:layout_marginBottom="7dp" android:fb_defaultColor="@color/colorPrimary" android:fb_focusColor="@color/button_focus_color" android:fb_fontIconResource="" android:fb_fontIconSize="16dp" android:fb_iconPaddingRight="10dp" android:fb_iconPosition="1" android:fb_radius="3dp" android:fb_text="SAVE" android:fb_textColor="0x106000b" />
+    </LinearLayout>
+</ScrollView>

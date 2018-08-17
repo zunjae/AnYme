@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.ContentFrameLayout android:id="@+id/action_bar_activity_content" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?unknown_attr_ref: 1010059" android:foregroundGravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill" />
+</merge>

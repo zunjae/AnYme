@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/md_content_textsize" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/md_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="20dp" android:fontFamily="sans-serif" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="0x102000d" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget_MaterialProgressBar_ProgressBar_Horizontal" />
+        <TextView android:textSize="@dimen/md_content_textsize" android:textStyle="bold" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/md_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="36dp" android:layout_below="0x102000d" android:layout_alignLeft="0x102000d" android:textAlignment="viewStart" android:layout_alignStart="0x102000d" />
+        <TextView android:textSize="@dimen/md_content_textsize" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/md_minMax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48dp" android:layout_below="0x102000d" android:layout_alignRight="0x102000d" android:textAlignment="viewEnd" android:layout_alignEnd="0x102000d" />
+    </RelativeLayout>
+</merge>

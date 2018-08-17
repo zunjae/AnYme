@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/nestedScrollView" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Scrollbar">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xd201">
+        <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xd201" />
+        <ImageView android:id="@+id/seriesImage" android:layout_width="UNKNOWN_DATA_0x6e01" android:layout_height="UNKNOWN_DATA_0x8701" android:layout_marginLeft="30dp" android:layout_marginTop="66dp" android:scaleType="centerCrop" />
+        <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay_AppCompat_Dark_ActionBar" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" />
+    </FrameLayout>
+    <TextView android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cowboy Bepis" android:maxLines="1" android:paddingStart="20dp" android:paddingEnd="20dp" />
+    <include layout="@layout/better_anime_status_info" />
+    <View android:background="@color/line_separator_dark_mode" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginBottom="5dp" />
+    <include layout="@layout/better_anime_actions" />
+</LinearLayout>

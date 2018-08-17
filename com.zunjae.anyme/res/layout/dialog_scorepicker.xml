@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/custom_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="@string/scorepicker_title" style="@style/DialogTitle" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/recyclerView" android:padding="7dp" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

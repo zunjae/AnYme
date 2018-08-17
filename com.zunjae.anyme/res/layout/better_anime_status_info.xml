@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/viewGroupUserStatus" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:baselineAligned="false"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/statusContainer" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:foreground="?unknown_attr_ref: 101030e" android:layout_weight="1.0">
+        <TextView android:textSize="15sp" android:textStyle="bold" android:id="@+id/valueAnimeStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WATCHING" />
+        <TextView android:textSize="13sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:text="status" />
+    </LinearLayout>
+    <View android:background="@color/line_separator_dark_mode" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/progressContainer" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:foreground="?unknown_attr_ref: 101030e" android:layout_weight="1.0">
+        <TextView android:textSize="15sp" android:textStyle="bold" android:id="@+id/valueAnimeProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10/15" />
+        <TextView android:textSize="13sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:text="progress" />
+    </LinearLayout>
+    <View android:background="@color/line_separator_dark_mode" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/scoreContainer" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:foreground="?unknown_attr_ref: 101030e" android:layout_weight="1.0">
+        <TextView android:textSize="15sp" android:textStyle="bold" android:id="@+id/valueAnimeScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" />
+        <TextView android:textSize="13sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:text="score" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.afollestad.materialdialogs.internal.MDButton android:id="@+id/md_buttonDefaultNeutral" style="@style/MD_ActionButton_Text" />
+    <com.afollestad.materialdialogs.internal.MDButton android:id="@+id/md_buttonDefaultNegative" style="@style/MD_ActionButton_Text" />
+    <com.afollestad.materialdialogs.internal.MDButton android:id="@+id/md_buttonDefaultPositive" style="@style/MD_ActionButton_Text" />
+</merge>

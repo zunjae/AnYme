@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003">
+    <TextView android:textSize="16sp" android:textColor="#727272" android:id="@+id/suggestion_text" android:paddingLeft="@dimen/search_view_text_padding" android:paddingRight="@dimen/search_view_text_padding" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <ImageView android:id="@+id/suggestion_icon" android:background="0x106000d" android:paddingLeft="@dimen/search_icon_padding" android:paddingRight="@dimen/search_icon_padding" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_suggestion" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/material_drawer_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="@dimen/material_drawer_padding" />
+    <TextView android:textSize="@dimen/material_drawer_item_section_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/material_drawer_name" android:paddingLeft="@dimen/material_drawer_vertical_padding" android:paddingRight="@dimen/material_drawer_vertical_padding" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700b5" android:lines="1" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

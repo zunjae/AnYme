@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/search_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/transparent_view" android:background="@color/search_layover_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/search_top_bar" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003">
+            <EditText android:textSize="16sp" android:textColor="#212121" android:textColorHint="#727272" android:id="@+id/searchTextView" android:background="@recyclerview/TOUCH_SLOP_DEFAULT" android:paddingLeft="@dimen/search_view_text_padding" android:paddingRight="@dimen/search_view_text_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/search_hint" android:singleLine="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:imeOptions="actionNone|actionGo|actionSearch|actionNext|actionDone|actionPrevious" />
+            <ImageButton android:id="@+id/action_up_btn" android:src="@drawable/ic_action_navigation_arrow_back" android:layout_centerVertical="true" style="@style/MSV_ImageButton" />
+            <ImageButton android:id="@+id/action_voice_btn" android:src="@drawable/ic_action_voice_search" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/MSV_ImageButton" />
+            <ImageButton android:id="@+id/action_empty_btn" android:visibility="gone" android:src="@drawable/ic_action_navigation_close" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/MSV_ImageButton" />
+            <View android:background="#fff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ListView android:id="@+id/suggestion_list" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="0x106000d" />
+    </LinearLayout>
+</FrameLayout>

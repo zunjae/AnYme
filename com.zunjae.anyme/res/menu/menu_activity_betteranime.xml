@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@+id/menu_delete_anime" app:title="Delete Anime" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@+id/menu_clear_saved_urls" app:title="Clear Saved URLs" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@+id/menu_copy_name" app:title="Copy Name to Clipboard" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@+id/menu_skip_intro" app:title="Skip Intro Settings" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@+id/menu_sync_incorrect_episodes" app:title="Sync Incorrect Episodes" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@+id/menu_share_anime" app:title="Share Anime" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

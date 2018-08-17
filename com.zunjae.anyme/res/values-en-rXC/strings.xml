@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‏‎‏‏‎‏‏‏‎‎‏‎‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‏‎‎‏‏‎‎‎‏‎Navigate home‎‏‎‎‏‎</string>
+    <string name="abc_action_bar_up_description">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‏‎‎‏‏‎‏‎‎‎‎‎‏‏‏‎‏‎‎‎‎‎‏‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‎‎Navigate up‎‏‎‎‏‎</string>
+    <string name="abc_action_menu_overflow_description">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‎‎‏‏‏‎‏‎‎‏‏‎‎‏‎‎‏‎‏‎‏‎‎‎‏‏‏‎‏‎‎‎‏‏‎‏‎‎‎‏‎‎‏‏‎‎More options‎‏‎‎‏‎</string>
+    <string name="abc_action_mode_done">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‏‎‎‎‏‎‎‏‎‎‏‎‏‏‏‎‏‎‎‎‏‏‏‎‎‏‎‎‏‏‏‎‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‎‏‎‎‏‎‏‏‏‏‎‏‏‎Done‎‏‎‎‏‎</string>
+    <string name="abc_activity_chooser_view_see_all">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‎‎‏‎‎‎‎‏‏‎‎‎‎‏‏‎‏‎‎‏‏‏‏‎‏‎See all‎‏‎‎‏‎</string>
+    <string name="abc_activitychooserview_choose_application">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‏‎‎‏‎‎‏‏‏‎‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‎‎‎‏‏‎‏‎‏‏‎‎‏‏‏‏‏‎‏‎‎‏‏‏‏‎‎Choose an app‎‏‎‎‏‎</string>
+    <string name="abc_capital_off">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‎‎‏‏‏‎‏‎‏‏‏‎‎‏‎‏‏‎‏‎‏‏‎‏‎‏‏‎‎‏‎‏‏‎‎‏‏‎‎‎‏‏‎‎‎‎‏‏‏‎‏‎‎‎‎‎‏‎‎‏‎OFF‎‏‎‎‏‎</string>
+    <string name="abc_capital_on">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‎‎‎‏‏‏‏‎‏‎‎‎‎‏‏‏‏‏‏‎‎‏‎‎‎‏‎‏‎‎‏‎‎‎‏‎‎‎‎‎‎‎‎‏‏‏‎‏‏‏‎‏‏‎ON‎‏‎‎‏‎</string>
+    <string name="abc_search_hint">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‏‏‎‎‎‎‎‏‎‎‎‏‎‏‎‎‎‎‎‏‏‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‎Search…‎‏‎‎‏‎</string>
+    <string name="abc_searchview_description_clear">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‏‏‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‏‏‏‎‏‎‏‎‏‎‎‏‎‎‎‎‏‎‎‎‏‏‎‏‏‏‏‎‎‎‎‎‎‎‎‎‎‏‎‎‏‎Clear query‎‏‎‎‏‎</string>
+    <string name="abc_searchview_description_query">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‎‏‎‏‎‎‎‏‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‏‏‎‎‎‏‎‎‎‎‎‏‎‏‎‏‏‏‏‎‎‎‏‎‎‏‎‎‎‎Search query‎‏‎‎‏‎</string>
+    <string name="abc_searchview_description_search">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‎‎‏‎‏‏‏‎‏‎‎‏‎‏‎‎‏‎‎‎‏‏‎‏‎‏‎‏‎‏‎‎‎‏‎‏‎‎‎‎‎‎‏‎‏‏‎‎‎‏‎‏‎Search‎‏‎‎‏‎</string>
+    <string name="abc_searchview_description_submit">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‎‏‏‏‏‏‎‎‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‎‏‎‏‎‏‎‏‎‏‎‎‎‎‎‏‏‎‎‎‎‎‏‏‎‎‎‏‏‎‎‎‎‎‎‎‎Submit query‎‏‎‎‏‎</string>
+    <string name="abc_searchview_description_voice">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‎‏‏‎‎‎‏‏‎‎‏‏‎‎‎‎‏‎‎‎‎‎‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‏‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‏‎‎‎‏‏‎‎Voice search‎‏‎‎‏‎</string>
+    <string name="abc_shareactionprovider_share_with">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‏‏‏‏‏‎‏‏‏‏‎‏‎‎‎‏‎‏‎‏‏‏‎‎‏‏‎‎‎‎‎‏‎‏‎‏‎‏‏‎‏‎‏‏‎‏‎‎‎Share with‎‏‎‎‏‎</string>
+    <string name="abc_shareactionprovider_share_with_application">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‎‎‏‎‏‎‏‎‏‎‏‏‎‎‎‎‎‎‎‎‏‎‏‎‏‎‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‏‎Share with ‎‏‎‎‏‏‎%s‎‏‎‎‏‏‏‎‎‏‎‎‏‎</string>
+    <string name="abc_toolbar_collapse_description">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‎‎‏‎‎‎‎‎‎‏‏‏‎‏‏‏‎‎‎‎‏‏‏‎‏‏‏‎‎‎‏‏‏‎‎‎‏‏‎‎‏‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎Collapse‎‏‎‎‏‎</string>
+    <string name="search_menu_title">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‎‏‎‏‎‎‎‎‎‎‏‏‏‎‏‏‎‎‏‏‏‎‎‏‎‎‎‏‏‎‎‏‎‏‎‎‎‏‎‎‏‎‏‎‏‏‏‏‎‎‎‎‎‎‎‎‎‎‏‏‎‎Search‎‏‎‎‏‎</string>
+</resources>

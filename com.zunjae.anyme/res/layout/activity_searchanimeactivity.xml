@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar fancy:id="@+id/searchAnimeToolbar" fancy:background="@drawable/gradient_background" fancy:subtitleTextColor="0x106000b" fancy:title="Anime Search" fancy:titleTextColor="0x106000b" style="@style/ToolbarStyle" />
+    <ScrollView fancy:layout_width="match_parent" fancy:layout_height="UNKNOWN_DATA_0x1" fancy:layout_weight="1.0">
+        <LinearLayout fancy:orientation="vertical" fancy:padding="10dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content"
+            <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="wrap_content">
+                <TextView fancy:textSize="16sp" fancy:textStyle="UNKNOWN_DATA_0x0" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Enter a name (optional):" />
+                <EditText fancy:scrollbarSize="1dp" fancy:id="@+id/searchAnimeInputName" fancy:scrollbars="horizontal" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:hint="Elfen Lied" fancy:maxLines="1" fancy:lines="1" />
+            </LinearLayout>
+            <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_marginTop="5dp">
+                <TextView fancy:textSize="16sp" fancy:textStyle="UNKNOWN_DATA_0x0" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Minimum rating: " />
+                <Spinner fancy:id="@+id/searchAnimeMinimumScoreSpinner" fancy:padding="2dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_marginTop="5dp">
+                <TextView fancy:textSize="16sp" fancy:textStyle="UNKNOWN_DATA_0x0" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Status: " />
+                <Spinner fancy:id="@+id/searchAnimeStatusSpinner" fancy:padding="2dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout fancy:orientation="vertical" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:layout_marginTop="5dp">
+                <TextView fancy:textSize="16sp" fancy:textStyle="UNKNOWN_DATA_0x0" fancy:layout_width="match_parent" fancy:layout_height="wrap_content" fancy:text="Genre: " />
+                <com.greenfrvr.hashtagview.HashtagView fancy:id="@+id/searchAnimeHashtags" fancy:rowMode="1" fancy:selectionMode="true" fancy:tagBackground="@drawable/hashtag_item" fancy:tagPaddingBottom="@dimen/hashtag_padding" fancy:tagPaddingLeft="@dimen/hashtag_padding_sides" fancy:tagPaddingRight="@dimen/hashtag_padding_sides" fancy:tagPaddingTop="@dimen/hashtag_padding" fancy:tagTextColor="0x106000b" style="@style/HashtagView" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout fancy:background="@drawable/gradient_background" fancy:padding="4dp" fancy:layout_width="match_parent" fancy:layout_height="wrap_content">
+        <mehdi.sakout.fancybuttons.FancyButton fancy:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" fancy:id="@+id/searchAnimeButton" fancy:padding="10dp" fancy:layout_width="wrap_content" fancy:layout_height="wrap_content" fancy:layout_marginRight="5dp" fancy:layout_centerInParent="true" fancy:layout_marginEnd="5dp" fancy:fb_borderColor="@color/colorPrimary" fancy:fb_borderWidth="1dp" fancy:fb_defaultColor="0x106000b" fancy:fb_focusColor="@color/button_focus_color" fancy:fb_fontIconResource="" fancy:fb_fontIconSize="16dp" fancy:fb_iconPaddingRight="10dp" fancy:fb_iconPosition="1" fancy:fb_radius="5dp" fancy:fb_text="Search for Anime" fancy:fb_textColor="@color/colorPrimary" />
+    </RelativeLayout>
+</LinearLayout>
