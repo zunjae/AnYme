@@ -10,7 +10,7 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 # Features
 
-* Synchronize with MyAnimeList. **The app can detect how many episodes you have watched!**
+* Synchronize with MyAnimeList to update what episodes you watched!**
 * **Built-in AdBlocker** which blocks annoying ads and trackers
 * Find Similar and Related Anime from shows you're watching
 * Read information about an anime
@@ -42,6 +42,7 @@ and more...
 * AnYme uses **HTTPS** when connecting to MAL, tho when creating a MAL account, I recommend you pick a password you do not use anywhere else
 * You can login or register on Kanon through https://kanonapp.com/account/register on your phone
 * AnYme is a MyAnimeList app. Other sources will not be added
+* Please report ads. I can block them fairly easily.
 
 ## Credits:
 
@@ -51,7 +52,6 @@ and more...
 * [ZPagerWrapper](https://github.com/zunjae/ZPagerWrapper)
 * [ZAsync](https://github.com/zunjae/ZAsync)
 * [ZApp](https://github.com/zunjae/ZApp)
-* [Zatch](https://github.com/zunjae/Zatch) (work in progress)
 
 (made by other people)
 * [Jikan.moe](https://jikan.moe/)
