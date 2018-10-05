@@ -26,6 +26,7 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * Quickly see how long it'll take before an Anime airs
 * See the **schedule** of your favorite Anime
 * **Skip opening music** for an Anime
+* Search for shows based on **filters**
 * Look up pictures from your favorite show and **batch-download** them
 * Look up **theme songs** and listen to them
 * Find **discussions** about episodes on Reddit
@@ -46,14 +47,6 @@ and more...
 
 ## Credits:
 
-(self-written libraries)
-* ZimpleDB
-* [ZRecyclerWrapper](https://github.com/zunjae/ZRecyclerWrapper)
-* [ZPagerWrapper](https://github.com/zunjae/ZPagerWrapper)
-* [ZAsync](https://github.com/zunjae/ZAsync)
-* [ZApp](https://github.com/zunjae/ZApp)
-
-(made by other people)
 * [Jikan.moe](https://jikan.moe/)
 * [Retrofit](http://square.github.io/retrofit/)
 * [FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
@@ -74,3 +67,27 @@ and more...
 Other
 
 * App Icon: LouieK22
+
+# How is AnYme build?
+
+AnYme is a native Android application written in Java using Android Studio. It mostly consist of the [Architecture Components](https://developer.android.com/topic/libraries/architecture/) from Google. The components are libraries which help me create robust code for the app while still being backwards comptible up to Android 4.4. Here are some example usages in the app:
+
+## LiveData and ViewModel
+
+The LiveData component is used to update the user interface whenever a change happens in the database without having to manually pull the database or fully recreate the screen you're on. LiveData in conjuction with ViewModels also helps prevents any issues that come with configuration changes, such as needing to re-query the database after rotating your device.
+
+![Image](https://cdn.discordapp.com/attachments/341672347746697216/497744107557355520/Screen_Shot_2018-10-05_at_14.17.04.png)
+
+## Room
+
+[Room](https://developer.android.com/topic/libraries/architecture/room) is a wrapper for SQLite which allows me to do fancy selections over the dataset. All I have to do is annotate my existing models and Room will automatically create an abstraction layer for me. The great thing about Room is that it checks at compile time whether my queries are correct. Here is an example code for how I retrieve the users' top shows while still allowing a variable minimum score:
+
+![Image](https://cdn.discordapp.com/attachments/341672347746697216/497743744792264724/Screen_Shot_2018-10-05_at_13.52.50.png)
+
+## WorkManager
+
+I use WorkManager to create tasks for code that needs to be executed in the background. I also make sure to only run it under specific conditions. For example: your profile will be updated upon app startup if you're connected to the network. WorkManager will assure that the task is only executed when possible. Here is how I update a profile:
+
+![Image](https://cdn.discordapp.com/attachments/341672347746697216/497743739276754954/Screen_Shot_2018-10-05_at_14.13.43.png)
+
+
