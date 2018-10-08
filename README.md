@@ -1,5 +1,5 @@
 # AnYme
-App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
+Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 [CLICK HERE TO DOWNLOAD THE APP](https://github.com/zunjae/anyme_download/releases/download/DownloadLink/anYme.apk)
 
