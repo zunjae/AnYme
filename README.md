@@ -8,17 +8,17 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 [Join the Discord server to get app updates earlier](http://anymeapp.com/serverinvite)
 
 
-# Features
+# App Features
 
 * Synchronize with MyAnimeList to update what episodes you watched!**
 * **Built-in AdBlocker** which blocks annoying ads and trackers
 * Find Similar and Related Anime from shows you're watching
-* Read information about an anime
-     * This includes information like **score, rating, broadcast day, adaptions, sequels etc.**
+* Read information about an anime movies and anime shows
+     * This includes information such as **score, rating, broadcast day, adaptions, sequels etc.**
 * **See recommendations** based on shows you like
 * See a list of **all popular, ongoing and airing shows**
 * **Add notes** to episodes you have watched
-* Save a list of your **favorite characters** (aka Waifus or Husbandos)
+* Save a list of your **favorite anime characters** (aka Waifus or Husbandos)
 * Find which characters play in a show and who their voice actors are.
 * Don't know what to watch, use the **Random Anime button**
 * Cleanup your MyAnimeList profile
@@ -27,9 +27,9 @@ App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * See the **schedule** of your favorite Anime
 * **Skip opening music** for an Anime
 * Search for shows based on **filters**
-* Look up pictures from your favorite show and **batch-download** them
-* Look up **theme songs** and listen to them
-* Find **discussions** about episodes on Reddit
+* Find anime wallpapers from your favorite show and **batch-download** them
+* Look up **anime songs** and listen to them
+* Find **anime discussions** about episodes on Reddit
 
 
 and more...
