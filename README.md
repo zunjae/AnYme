@@ -48,9 +48,7 @@ and more...
 
 ## Credits (alphabetically):
 
-* [ButterKnife](http://jakewharton.github.io/butterknife/)
 * [Fabric](https://docs.fabric.io/android/fabric/overview.html)
-* [FancyButtons](https://github.com/medyo/Fancybuttons)
 * [FastScroll](https://github.com/L4Digital/FastScroll)
 * [FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
 * [FontAwesome](http://fontawesome.io/)
@@ -71,24 +69,24 @@ Other
 
 # How is AnYme build?
 
-AnYme is a native Android application written in Java using Android Studio. It mostly consist of the [Architecture Components](https://developer.android.com/topic/libraries/architecture/) from Google. The components consist of libraries which help me create robust code for the app while still being backwards comptible up to Android 4.4. Here are some example usages in the app:
+AnYme is a native Android application written in Kotlin and Java using Android Studio. It mostly consist of the [Architecture Components](https://developer.android.com/topic/libraries/architecture/) from Google. The components consist of libraries which help me create robust code for the app while still being backwards comptible up to Android 4.4. Here are some example usages in the app:
 
 ## LiveData and ViewModel
 
 The LiveData component is used to update the user interface whenever a change happens in the database without having to manually pull the database or fully recreate the screen you're on. LiveData in conjuction with ViewModels also helps prevents any issues that come with configuration changes, such as needing to re-query the database after rotating your device.
 
-![Image](https://cdn.discordapp.com/attachments/341672347746697216/497744107557355520/Screen_Shot_2018-10-05_at_14.17.04.png)
+![Image](https://cdn.discordapp.com/attachments/341672347746697216/509739846970114050/unknown.png)
 
 ## Room
 
 [Room](https://developer.android.com/topic/libraries/architecture/room) is a wrapper for SQLite which allows me to do fancy selections over the dataset. All I have to do is annotate my existing models and Room will automatically create an abstraction layer for me. The great thing about Room is that it checks at compile time whether my queries are correct. Here is an example code for how I retrieve the users' top shows while still allowing a variable minimum score:
 
-![Image](https://cdn.discordapp.com/attachments/341672347746697216/497743744792264724/Screen_Shot_2018-10-05_at_13.52.50.png)
+![Image](https://cdn.discordapp.com/attachments/341672347746697216/509734745891012617/unknown.png)
 
 ## WorkManager
 
 I use WorkManager to create tasks for code that needs to be executed in the background. I also make sure to only run it under specific conditions. For example: your profile will be updated upon app startup but only if you're connected to the internet. WorkManager guarantees that the task is only executed when possible. Here is how I update a profile:
 
-![Image](https://cdn.discordapp.com/attachments/341672347746697216/497743739276754954/Screen_Shot_2018-10-05_at_14.13.43.png)
+![Image](https://cdn.discordapp.com/attachments/341672347746697216/509740044479627274/unknown.png)
 
 
