@@ -48,8 +48,10 @@ and more...
 
 ## Credits (alphabetically):
 
+* [Calligraphy](https://github.com/chrisjenx/Calligraphy)
 * [Fabric](https://docs.fabric.io/android/fabric/overview.html)
 * [FastScroll](https://github.com/L4Digital/FastScroll)
+* [Firebase](https://firebase.google.com/)
 * [FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
 * [FontAwesome](http://fontawesome.io/)
 * [Glide](https://github.com/bumptech/glide)
