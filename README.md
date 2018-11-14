@@ -59,6 +59,7 @@ and more...
 * [MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
 * [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView)
 * [Otto](http://square.github.io/otto/)
+* [PrettyStateView](https://github.com/Rohyme/PrettyStateView)
 * [Retrofit](http://square.github.io/retrofit/)
 * [Room](https://developer.android.com/topic/libraries/architecture/room)
 * [TagView](https://github.com/Cutta/TagView)
