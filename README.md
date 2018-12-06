@@ -59,10 +59,10 @@ and more...
 * [MaterialDialogs](https://github.com/afollestad/material-dialogs)
 * [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
 * [MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
-* [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView)
 * [Otto](http://square.github.io/otto/)
 * [PrettyStateView](https://github.com/Rohyme/PrettyStateView)
 * [Retrofit](http://square.github.io/retrofit/)
+* [SimpleSearchView](https://github.com/Ferfalk/SimpleSearchView)
 * [Room](https://developer.android.com/topic/libraries/architecture/room)
 * [TagView](https://github.com/Cutta/TagView)
 
