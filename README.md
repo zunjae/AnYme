@@ -93,3 +93,15 @@ I use WorkManager to create tasks for code that needs to be executed in the back
 ![Image](https://cdn.discordapp.com/attachments/341672347746697216/509740044479627274/unknown.png)
 
 
+# Why use AnYme?
+
+AnYme is not a competing app. I do not maintain it for the sake of being better than other apps. That said, there are some reasons to pick AnYme over other apps. Here's a small list:
+
+* No Ads
+* MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
+* An active Discord community
+* Alpha updates are released multiple times per week
+* It is a true native app and not Xamarin wrapped
+* It has a subreddit with nearly 4K subscribed people
+* It is based off the most recent SDK build tools for best compatability with most phones and tablets
+* It has no app permissions, so it can't look at your files and send them to a server
