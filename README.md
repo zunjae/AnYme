@@ -105,4 +105,4 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * It is based off the most recent SDK build tools for best compatability with most phones and tablets
 * It has no app permissions, so it can't look at your files and send them to a server
 * It has a Trello board so you can follow the development progress (http://anymeapp.com/todo)
-🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
+* 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
