@@ -55,7 +55,7 @@ and more...
 * [FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
 * [FontAwesome](http://fontawesome.io/)
 * [Glide](https://github.com/bumptech/glide)
-* [Jikan.moe](https://jikan.moe/)
+* [Jikan.moe](https://jikan.moe/) 
 * [MaterialDialogs](https://github.com/afollestad/material-dialogs)
 * [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
 * [MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
