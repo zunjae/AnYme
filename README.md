@@ -92,6 +92,12 @@ I use WorkManager to create tasks for code that needs to be executed in the back
 
 ![Image](https://cdn.discordapp.com/attachments/341672347746697216/509740044479627274/unknown.png)
 
+## Retrofit
+
+In order to make network calls I use Retrofit. What I like about Retrofit is that it only takes two lines of code to declare an endpoint. They're also very easy to understand. Unlike other libraries, I feel like Retrofit simplifies the whole networking process including deserializing objects (which happens automatically)
+
+![Image](https://cdn.discordapp.com/attachments/369975129813549076/540882346195288084/unknown.png)
+
 
 # Why use AnYme?
 
