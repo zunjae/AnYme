@@ -1,1 +1,1 @@
-Visit http://anymeapp.com/apk
+Visit http://anyme.app/apk
