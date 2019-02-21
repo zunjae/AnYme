@@ -5,7 +5,7 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 ![image](https://cdn.discordapp.com/attachments/341672347746697216/521367222342647833/1544373998115.png.png)
 
-[Join the Discord server to get app updates earlier](http://anymeapp.com/serverinvite)
+[Join the Discord server to get app updates earlier](https://anyme.app/serverinvite)
 
 
 # App Features
@@ -40,7 +40,7 @@ and more...
 
 * **AnYme requires no app permission**. So it can't look at your private files and send them to a server
 * You need at least Android 4.4
-* You can request new features on [Reddit](https://www.reddit.com/r/AnYme) or the [Discord server](http://anymeapp.com/serverinvite)
+* You can request new features on [Reddit](https://www.reddit.com/r/AnYme) or the [Discord server](http://anyme.app/serverinvite)
 * AnYme uses **HTTPS** when connecting to MAL. When creating a MAL account, I recommend you pick a password you do not use anywhere else
 * You can login or register on Kanon through https://kanonapp.com/account/register on your phone
 * AnYme is a MyAnimeList app. Other sources will not be added
@@ -105,10 +105,10 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
-* An active Discord community (http://anymeapp.com/serverinvite)
+* An active Discord community (https://anyme.app/serverinvite)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 4K subscribers (http://anymeapp.com/reddit)
+* It has a subreddit with more than 4K subscribers (https://anyme.app/reddit)
 * It is based off the most recent SDK build tools for best compatability with most phones and tablets
 * It has no app permissions, so it can't look at your files and send them to a server
-* It has a Trello board so you can follow the development progress (http://anymeapp.com/todo)
+* It has a Trello board so you can follow the development progress (https://anyme.app/todo)
 * 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
