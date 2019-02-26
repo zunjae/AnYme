@@ -43,7 +43,7 @@ and more...
 * You can request new features on [Reddit](https://www.reddit.com/r/AnYme) or the [Discord server](http://anyme.app/serverinvite)
 * AnYme uses **HTTPS** when connecting to MAL. When creating a MAL account, I recommend you pick a password you do not use anywhere else
 * You can login or register on Kanon through https://kanonapp.com/account/register on your phone
-* AnYme is a MyAnimeList app. Other sources will not be added
+* AnYme is a MyAnimeList app! Other sources will not be added
 * Please report ads. I can block them fairly easily.
 
 ## Credits (alphabetically):
