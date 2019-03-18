@@ -14,6 +14,7 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * **A Built-in AdBlocker** which blocks annoying ads and trackers
 * **Get a notification when an episode is released**
 * Find Similar and Related Anime from shows you're watching
+* Create shortcuts to Anime on your launcher
 * Read information about anime movies and anime shows
      * This includes information such as **score, rating, broadcast day, adaptions, sequels etc.**
 * **See recommendations** based on shows you like
