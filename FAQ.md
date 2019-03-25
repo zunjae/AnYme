@@ -12,7 +12,7 @@
 ### Where can I find the latest version of the app?
   - Currently there are three versions available, two of them are available for everyone.
     - Public Reddit Build: latest stable version. Updated every 3 months. http://anyme.app/apk
-    - Public Discord Build: latest BETA. Fairly stable. Updated every 4 weeks. http://anyme.app/serverinvite
+    - Public Discord Build: latest BETA. Fairly stable. Updated every 2-3 months. http://anyme.app/serverinvite
     - Alpha Build: contains experimental changes. Intended to not be stable to collect lots of crashes and feedback. Only available if you have the alpha role in the Discord server. Updated once or twice a week.
     
 ---
