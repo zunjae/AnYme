@@ -24,7 +24,6 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * **Bulk delete shows** from your profile
 * Quickly see how long it takes before the next episode airs
 * See the **schedule** of your favorite Anime
-* **Skip opening music** for an Anime
 * Search for shows based on **filters**
 * Find anime wallpapers from your favorite show and **batch-download** them
 * Look up **anime songs** and listen to them
