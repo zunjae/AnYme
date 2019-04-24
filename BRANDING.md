@@ -13,9 +13,8 @@
 
 # Official pages for the app:
 
-* https://anyme.app
+* https://anyme.app which redirects to https://zunjae.github.io/anymeapp.com/
 * https://github.com/zunjae/anyme
-* https://zunjae.github.io/anymeapp.com/
 * https://reddit.com/r/anyme
 * https://kanonapp.com
 * https://trello.com/b/5E1v0HJa/anyme
