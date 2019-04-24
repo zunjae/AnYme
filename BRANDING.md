@@ -27,6 +27,8 @@
 * Background color: #111A29
 * Card color: #172233
 
+**AVOID USING OTHER COLORS. THE APP MAY NOT BE USED WITH A DIFFERENT PRIMARY COLOR OR BACKGROUND COLOR**
+
 # Icon:
 
 ![AppIcon](https://zunjae.github.io/anymeapp.com/icon.png)
