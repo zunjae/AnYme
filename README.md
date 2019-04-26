@@ -91,11 +91,7 @@ I use WorkManager to create tasks for code that needs to be executed in the back
 
 ## Threading
 
-\> 2019
-
-\> Still using `await`, `RxJava` `AsyncTasks` or `Thread`
-
-\> Not using `doAsync` and `uiThread` from Anko https://github.com/Kotlin/anko
+For asynchroniously loading data, processing it and then displaying it to the user I use `doAsync` with `uiThread`
 
 ```
 doAsyncWithLoadingIndicator(swipeRefreshLayout) {
@@ -105,8 +101,6 @@ doAsyncWithLoadingIndicator(swipeRefreshLayout) {
   }
 }
 ```
-
-(TODO: use image instead of code)
 
 ## Retrofit
 
