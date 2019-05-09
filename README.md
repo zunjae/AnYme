@@ -59,7 +59,6 @@ and more...
 * [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
 * [MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
 * [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
-* [NoPaginate](https://github.com/NoNews/NoPaginate)
 * [Notify](https://github.com/Karn/notify)
 * [PrettyStateView](https://github.com/Rohyme/PrettyStateView)
 * [Recyclical](https://github.com/afollestad/recyclical)
@@ -121,7 +120,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 5.9K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 6K subscribers (https://anyme.app/reddit)
 * It is based off the most recent SDK build tools for best compatability with most phones and tablets
 * It has no app permissions, so it can't look at your files and send them to a server
 * It has a Trello board so you can follow the development progress (https://anyme.app/todo)
