@@ -45,27 +45,29 @@ and more...
 
 ## Credits (alphabetically):
 
-* [Anko](https://github.com/Kotlin/anko)
-* [Calligraphy](https://github.com/chrisjenx/Calligraphy)
-* [Fabric](https://docs.fabric.io/android/fabric/overview.html)
-* [FastScroll](https://github.com/L4Digital/FastScroll)
-* [Firebase](https://firebase.google.com/)
-* [FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
+* [Bumptech/Glide 4](https://github.com/bumptech/glide)
+* [Cutta/TagView](https://github.com/Cutta/TagView)
+* [Ferfalk/SimpleSearchView](https://github.com/Ferfalk/SimpleSearchView)
 * [FontAwesome](http://fontawesome.io/)
-* [Glide 4](https://github.com/bumptech/glide)
-* [Jikan.moe](https://jikan.moe/) 
+* [Google/Fabric](https://docs.fabric.io/android/fabric/overview.html)
+* [Google/Firebase](https://firebase.google.com/)
+* [Google/Room](https://developer.android.com/topic/libraries/architecture/room)
+* [IvBaranov/MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
+* [JakeWharton/Timber](https://github.com/JakeWharton/timber)
+* [Karn/Notify](https://github.com/Karn/notify)
 * [Koin](https://insert-koin.io/)
-* [MaterialDialogs](https://github.com/afollestad/material-dialogs)
-* [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
-* [MaterialFavoriteButton](https://github.com/IvBaranov/MaterialFavoriteButton)
-* [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
-* [Notify](https://github.com/Karn/notify)
-* [PrettyStateView](https://github.com/Rohyme/PrettyStateView)
-* [Recyclical](https://github.com/afollestad/recyclical)
-* [Retrofit](http://square.github.io/retrofit/)
-* [SimpleSearchView](https://github.com/Ferfalk/SimpleSearchView)
-* [Room](https://developer.android.com/topic/libraries/architecture/room)
-* [TagView](https://github.com/Cutta/TagView)
+* [Kotlin/Anko](https://github.com/Kotlin/anko)
+* [L4Digital/FastScroll](https://github.com/L4Digital/FastScroll)
+* [Nekomata/Jikan.moe](https://jikan.moe/)
+* [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+* [Rohyme/PrettyStateView](https://github.com/Rohyme/PrettyStateView)
+* [afollestad/MaterialDialogs](https://github.com/afollestad/material-dialogs)
+* [afollestad/Recyclical](https://github.com/afollestad/recyclical)
+* [aurelhubert/ahbottomnavigation](https://github.com/aurelhubert/ahbottomnavigation)
+* [chrisjenx/Calligraphy](https://github.com/chrisjenx/Calligraphy)
+* [leinardi/FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
+* [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
+* [square/Retrofit](http://square.github.io/retrofit/)
 
 Other
 
@@ -120,7 +122,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 6.2K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 6.3K subscribers (https://anyme.app/reddit)
 * It is based off the most recent SDK build tools for best compatability with most phones and tablets
 * It has no app permissions, so it can't look at your files and send them to a server
 * It has a Trello board so you can follow the development progress (https://anyme.app/todo)
