@@ -45,7 +45,11 @@ and more...
 
 ## Credits (alphabetically):
 
+* [afollestad/MaterialDialogs](https://github.com/afollestad/material-dialogs)
+* [afollestad/Recyclical](https://github.com/afollestad/recyclical)
+* [aurelhubert/ahbottomnavigation](https://github.com/aurelhubert/ahbottomnavigation)
 * [Bumptech/Glide 4](https://github.com/bumptech/glide)
+* [chrisjenx/Calligraphy](https://github.com/chrisjenx/Calligraphy)
 * [Cutta/TagView](https://github.com/Cutta/TagView)
 * [Ferfalk/SimpleSearchView](https://github.com/Ferfalk/SimpleSearchView)
 * [FontAwesome](http://fontawesome.io/)
@@ -58,15 +62,11 @@ and more...
 * [Koin](https://insert-koin.io/)
 * [Kotlin/Anko](https://github.com/Kotlin/anko)
 * [L4Digital/FastScroll](https://github.com/L4Digital/FastScroll)
+* [leinardi/FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
+* [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
 * [Nekomata/Jikan.moe](https://jikan.moe/)
 * [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * [Rohyme/PrettyStateView](https://github.com/Rohyme/PrettyStateView)
-* [afollestad/MaterialDialogs](https://github.com/afollestad/material-dialogs)
-* [afollestad/Recyclical](https://github.com/afollestad/recyclical)
-* [aurelhubert/ahbottomnavigation](https://github.com/aurelhubert/ahbottomnavigation)
-* [chrisjenx/Calligraphy](https://github.com/chrisjenx/Calligraphy)
-* [leinardi/FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
-* [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
 * [square/Retrofit](http://square.github.io/retrofit/)
 
 Other
