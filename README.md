@@ -61,7 +61,6 @@ and more...
 * [Karn/Notify](https://github.com/Karn/notify)
 * [Koin](https://insert-koin.io/)
 * [Kotlin/Anko](https://github.com/Kotlin/anko)
-* [L4Digital/FastScroll](https://github.com/L4Digital/FastScroll)
 * [leinardi/FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
 * [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
 * [Nekomata/Jikan.moe](https://jikan.moe/)
