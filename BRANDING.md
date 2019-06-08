@@ -2,11 +2,11 @@
 
 * Avoid writing the app name as AnyMe
 * It's fine if you write anyme or anYme
-* AnYme is pronounced "Eh-nim", like "Enemy" with the "y"
+* AnYme is pronounced "Eh-nim", like "Enemy" without the "y"
 
 # AnYme is an unofficial client app for MyAnimeList.
 
-* This means that I won't add support for other sycing services
+* This means that I won't add support for other syncing services
 
 # 'The AnYme Project' consists of:
 
