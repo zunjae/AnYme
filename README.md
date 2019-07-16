@@ -72,7 +72,7 @@ Other
 
 * App Icon: LouieK22
 
-# How is AnYme build?
+# How is AnYme built?
 
 AnYme is a native Android application written in Kotlin and Java using Android Studio. It mostly consist of the [Architecture Components](https://developer.android.com/topic/libraries/architecture/) from Google. The components consist of libraries which help me create robust code for the app while still being backwards comptible up to Android 4.4. Here are some example usages in the app:
 
@@ -121,7 +121,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 7.2K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 7.2=4K subscribers (https://anyme.app/reddit)
 * It is based off the most recent SDK build tools for best compatability with most phones and tablets
 * It has no app permissions, so it can't look at your files and send them to a server
 * It has a Trello board so you can follow the development progress (https://anyme.app/todo)
