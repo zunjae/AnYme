@@ -1,7 +1,7 @@
 # AnYme is written with a capital A and capital Y. Historically it used to be anYme with a capital Y. This has later been changed to AnYme
 
 * Avoid writing the app name as AnyMe
-* It's fine if you write anyme or anYme
+* It's fine if you write anyme, Anyme or anYme
 * AnYme is pronounced "Eh-nim", like "Enemy" without the "y"
 
 # AnYme is an unofficial client app for MyAnimeList.
