@@ -121,7 +121,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 7.4K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 7.5K subscribers (https://anyme.app/reddit)
 * It is based off the most recent SDK build tools for best compatibility with most phones and tablets
 * It has no app permissions, so it can't look at your files and send them to a server
 * It has a Trello board so you can follow the development progress (https://anyme.app/todo)
