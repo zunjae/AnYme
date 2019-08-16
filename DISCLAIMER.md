@@ -1,6 +1,6 @@
 ## Security Disclaimer
 
-While it's possible to login on MAL through your GMail account, it's highly recommended that you don't. Reason being is that you're about to enter passwords in a WebView. In general this is not recommended. Google is smart enough to send you an email about an "unauthorized login" (on an iPhone, which is the user-agent AnYme uses). If you have no other option, then please generate a username and password on MAL or use a throw-away account.
+While it's possible to login on MAL through your GMail account, it's highly recommended that you don't. Reason being is that you're about to enter passwords in a WebView. In general this is not recommended. Google is smart enough to send you an email about an "unauthorized login" (on an Nexus 5 running Android 4.4.4, which is the user-agent AnYme uses). If you have no other option, then please generate a username and password on MAL or use a throw-away account.
 
 ## Legal Disclaimer
 
