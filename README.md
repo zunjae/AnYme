@@ -74,45 +74,7 @@ Other
 
 # How is AnYme built?
 
-AnYme is a native Android application written in Kotlin and Java using Android Studio. It mostly consist of the [Architecture Components](https://developer.android.com/topic/libraries/architecture/) from Google. The components consist of libraries which help me create robust code for the app while still being backwards comptible up to Android 4.4. Here are some example usages in the app:
-
-## LiveData and ViewModel
-
-The LiveData component is used to update the user interface whenever a change happens in the database without having to manually pull the database or fully recreate the screen you're on. LiveData in conjunction with ViewModels also helps prevents any issues that come with configuration changes, such as needing to re-query the database after rotating your device.
-
-![Image](https://cdn.discordapp.com/attachments/341672347746697216/509739846970114050/unknown.png)
-
-## Room
-
-[Room](https://developer.android.com/topic/libraries/architecture/room) is a wrapper for SQLite which allows me to do fancy selections over the dataset. All I have to do is annotate my existing models and Room will automatically create an abstraction layer for me. The great thing about Room is that it checks at compile time whether my queries are correct. Here is an example code for how I retrieve the users' top shows while still allowing a variable minimum score:
-
-![Image](https://cdn.discordapp.com/attachments/341672347746697216/509734745891012617/unknown.png)
-
-## WorkManager
-
-I use WorkManager to create tasks for code that needs to be executed in the background. I also make sure to only run it under specific conditions. For example: your profile will be updated upon app startup but only if you're connected to the internet. WorkManager guarantees that the task is only executed when possible. Here is how I update a profile:
-
-![Image](https://cdn.discordapp.com/attachments/341672347746697216/509740044479627274/unknown.png)
-
-## Threading
-
-For asynchroniously loading data, processing it and then displaying it to the user I use `doAsync` with `uiThread`
-
-```
-doAsyncWithLoadingIndicator(swipeRefreshLayout) {
-  val results = site.searchShowsByQuery(query)
-  uiThread {
-    dataSource.set(results)
-  }
-}
-```
-
-## Retrofit
-
-In order to make network calls I use Retrofit. What I like about Retrofit is that it only takes two lines of code to declare an endpoint. They're also very easy to understand. Unlike other libraries, I feel like Retrofit simplifies the whole networking process including deserializing objects (which happens automatically)
-
-![Image](https://cdn.discordapp.com/attachments/369975129813549076/540882346195288084/unknown.png)
-
+AnYme is a native Android application written in Kotlin and Java using Android Studio.
 
 # Why use AnYme?
 
