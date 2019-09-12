@@ -16,6 +16,7 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
      * This includes information such as **score, rating, broadcast day, adaptions, sequels etc.**
 * **See recommendations** based on shows you like
 * See a list of **all popular, ongoing and airing anime shows, movies and OVAs**
+* See what other people are watching
 * **Add notes** to episodes you have watched
 * Save a list of your **favorite anime characters**
 * Find which characters play in a show and who their voice actors are.
@@ -25,7 +26,6 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 * Quickly see how long it takes before the next episode airs
 * See the **schedule** of your favorite Anime
 * Search for shows based on **filters**
-* Find anime wallpapers from your favorite show and **batch-download** them
 * Look up **anime songs** and listen to them
 * Find **anime discussions** on Reddit
 
