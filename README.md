@@ -66,6 +66,7 @@ and more...
 * [Nekomata/Jikan.moe](https://jikan.moe/)
 * [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * [Rohyme/PrettyStateView](https://github.com/Rohyme/PrettyStateView)
+* [square/LeakCanary](https://github.com/square/leakcanary)
 * [square/Retrofit](http://square.github.io/retrofit/)
 
 Other
