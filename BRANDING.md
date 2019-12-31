@@ -13,7 +13,6 @@
 * The AnYme App
 * KanonApp
 * The Subreddit
-* The Discord server
 * The Website
 
 # Official pages for the app:
