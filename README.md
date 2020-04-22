@@ -3,8 +3,7 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 [CLICK HERE TO DOWNLOAD THE APP](https://anyme.app/apk)
 
-![image](https://cdn.discordapp.com/attachments/341672347746697216/702614089419194378/anyme_img.png)
-(this is an old screenshot)
+![image](https://cdn.discordapp.com/attachments/341672347746697216/702614089419194378/anyme_img.png)=
 
 # App Features
 
