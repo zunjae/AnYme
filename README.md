@@ -8,7 +8,7 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 # App Features
 
 * **Synchronize with MyAnimeList to update what episodes you have watched!**
-* **A Built-in AdBlocker** which blocks annoying ads and trackers
+* **A Built-in AdBlocker** which blocks annoying ads and trackers on sites you visit
 * **Get a notification when an episode is released**
 * Find Similar and Related Anime from shows you're watching
 * Create shortcuts to Anime on your launcher
@@ -84,7 +84,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 11.1K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 11.3K subscribers (https://anyme.app/reddit)
 * It has no app permissions, so it can't look at your files and send them to a server
 * It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
 * 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
