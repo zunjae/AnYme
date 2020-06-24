@@ -3,7 +3,7 @@ Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
 [CLICK HERE TO DOWNLOAD THE APP](https://anyme.app/apk)
 
-![image](https://cdn.discordapp.com/attachments/341672347746697216/702614089419194378/anyme_img.png)=
+![image](https://cdn.discordapp.com/attachments/341672347746697216/702614089419194378/anyme_img.png)
 
 # App Features
 
@@ -83,7 +83,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 11.7K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 12.4K subscribers (https://anyme.app/reddit)
 * It has no app permissions, so it can't look at your files and send them to a server
 * It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
 * 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
