@@ -48,7 +48,7 @@ and more...
 * [afollestad/Recyclical](https://github.com/afollestad/recyclical)
 * [aurelhubert/ahbottomnavigation](https://github.com/aurelhubert/ahbottomnavigation)
 * [Bumptech/Glide 4](https://github.com/bumptech/glide)
-* [chrisjenx/Calligraphy](https://github.com/chrisjenx/Calligraphy)
+* [chrisjenx/Calligraphy](https://github.com/InflationX/Calligraphy)
 * [Cutta/TagView](https://github.com/Cutta/TagView)
 * [Ferfalk/SimpleSearchView](https://github.com/Ferfalk/SimpleSearchView)
 * [FontAwesome](http://fontawesome.io/)
