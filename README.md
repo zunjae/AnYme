@@ -34,11 +34,11 @@ and more...
 
 ## Things you should know
 
-* **AnYme requires no app permission**. So it can't look at your private files and send them to a server
-* You need at least Android 4.4
+* **AnYme requires no app permissions**. So it can't look at your private files and send them to a server
+* You need at least Android 5
 * You can request new features on [Reddit](https://www.reddit.com/r/AnYme)
-* AnYme uses **HTTPS** when connecting to MAL. When creating a MAL account, I recommend you pick a password you do not use anywhere else
-* You can login or register on Kanon through https://kanonapp.com/account/register on your phone
+* AnYme uses **HTTPS** when connecting to MyAnimeList. When creating a MyAnimeList account, I recommend you pick a password you do not use anywhere else
+* You can login or register on Kanon through https://kanonapp.com/ on your phone
 * AnYme is a MyAnimeList app! Other sources will not be added
 * Please report ads. I can block them fairly easily.
 
@@ -83,7 +83,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 13.3K subscribers (https://anyme.app/reddit)
-* It has no app permissions, so it can't look at your files and send them to a server
+* It has a subreddit with more than 14.2K subscribers (https://anyme.app/reddit)
+* It requires no app permissions to function, so you can use the app without fearing your data getting stolen.
 * It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
 * 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
