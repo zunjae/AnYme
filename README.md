@@ -76,6 +76,19 @@ Other
 
 AnYme is a native Android application written in Kotlin and Java using Android Studio.
 
+# Permissions Explained
+
+| Permission  | Reason | Required |
+| ------------- | ------------- | ------------- |
+| android.permission.ACCESS_WIFI_STATE  | The app may only download videos when you're connected through WiFi | Yes
+| android.permission.ACCESS_NETWORK_STATE  | The app will download new content if you're connected to the Internet | Yes
+| android.permission.REQUEST_INSTALL_PACKAGES  | Built-in in-app updater. Optional, disabled by default by the Android OS | No
+| com.android.launcher.permission.INSTALL_SHORTCUT  | Install shortcuts of Anime on your launcher | No
+| android.permission.READ_EXTERNAL_STORAGE  | Watch videos downloaded through the built-in downloader in Vydia. **Disabled by default** | No. You can also download videos through ADM if you don't want to give AnYme write permissions
+| android.permission.WRITE_EXTERNAL_STORAGE  | Download videos through the built-in downloader. **Disabled by default** | No. You can also watch videos through your gallery app
+
+
+
 # Why use AnYme?
 
 AnYme is not a competing app. I do not maintain it for the sake of being better than other apps. That said, there are some reasons to pick AnYme over other apps. Here's just a small list:
@@ -83,7 +96,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 14.4K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 15.5K subscribers (https://anyme.app/reddit)
 * It requires no app permissions to function, so you can use the app without fearing your data getting stolen.
 * It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
 * 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
