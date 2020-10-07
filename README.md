@@ -82,7 +82,7 @@ AnYme is a native Android application written in Kotlin and Java using Android S
 | ------------- | ------------- | ------------- |
 | android.permission.ACCESS_WIFI_STATE  | The app may only download videos when you're connected through WiFi | Yes
 | android.permission.ACCESS_NETWORK_STATE  | The app will download new content if you're connected to the Internet | Yes
-| android.permission.REQUEST_INSTALL_PACKAGES  | Built-in in-app updater. Optional, disabled by default by the Android OS | No
+| android.permission.REQUEST_INSTALL_PACKAGES  | Built-in apk updater. **Disabled by default** | No
 | com.android.launcher.permission.INSTALL_SHORTCUT  | Install shortcuts of Anime on your launcher | No
 | android.permission.READ_EXTERNAL_STORAGE  | Watch videos downloaded through the built-in downloader in Vydia. **Disabled by default** | No. You can also download videos through ADM if you don't want to give AnYme write permissions
 | android.permission.WRITE_EXTERNAL_STORAGE  | Download videos through the built-in downloader. **Disabled by default** | No. You can also watch videos through your gallery app
