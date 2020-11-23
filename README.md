@@ -91,9 +91,9 @@ AnYme is a native Android application written in Kotlin and Java using Android S
 AnYme is not a competing app. I do not maintain it for the sake of being better than other apps. That said, there are some reasons to pick AnYme over other apps. Here's just a small list:
 
 * No Ads
-* MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched. (An Alpha download was available in less than 3 hours after the site came online)
+* MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched.
 * Alpha updates are released multiple times per week
 * It has a subreddit with more than 16K subscribers (https://anyme.app/reddit)
-* It requires no app permissions to function, so you can use the app without fearing your data getting stolen.
+* It requires no personal app permissions to function, so you can use the app without fearing your data getting stolen.
 * It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
 * 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
