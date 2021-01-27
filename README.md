@@ -81,9 +81,9 @@ AnYme is a native Android application written in Kotlin and Java using Android S
 | Permission  | Reason | Required |
 | ------------- | ------------- | ------------- |
 | android.permission.ACCESS_WIFI_STATE  | The app may only download videos when you're connected through WiFi | Yes
-| android.permission.ACCESS_NETWORK_STATE  | The app will download new content if you're connected to the Internet | Yes
-| android.permission.REQUEST_INSTALL_PACKAGES  | Built-in apk updater. **Disabled by default** | No
-| com.android.launcher.permission.INSTALL_SHORTCUT  | Install shortcuts of Anime on your launcher | No
+| android.permission.ACCESS_NETWORK_STATE  | The app will only update data if you're connected to the Internet | Yes
+| android.permission.REQUEST_INSTALL_PACKAGES  | Built-in apk updater | No
+| com.android.launcher.permission.INSTALL_SHORTCUT  | Install shortcuts to Anime on your home launcher | No
 
 
 # Why use AnYme?
@@ -93,7 +93,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched.
 * Alpha updates are released multiple times per week
-* It has a subreddit with more than 16K subscribers (https://anyme.app/reddit)
+* It has a subreddit with more than 17K subscribers (https://anyme.app/reddit)
 * It requires no personal app permissions to function, so you can use the app without fearing your data getting stolen.
 * It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
 * 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
