@@ -93,6 +93,7 @@ AnYme is not a competing app. I do not maintain it for the sake of being better 
 * No Ads
 * MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched.
 * Alpha updates are released multiple times per week
+* For downloading videos it uses SAF/Media Store which respects your privacy. The app doesn't need permission to see your files
 * It has a subreddit with more than 17K subscribers (https://anyme.app/reddit)
 * It requires no personal app permissions to function, so you can use the app without fearing your data getting stolen.
 * It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
