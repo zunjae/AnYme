@@ -1,14 +1,13 @@
 # AnYme
-Android App for Anime which can sync with MyAnimeList **[ FREE AND NO ADS! ]**
+Android App that can sync with MyAnimeList **[ FREE AND NO ADS! ]**
+
+(You can not stream with this app)
 
 [CLICK HERE TO DOWNLOAD THE APP](https://anyme.app/apk)
-
-![image](https://cdn.discordapp.com/attachments/341672347746697216/702614089419194378/anyme_img.png)
 
 # App Features
 
 * **Synchronize with MyAnimeList to update what episodes you have watched!**
-* **A Built-in AdBlocker** which blocks annoying ads and trackers on sites you visit
 * **Get a notification when an episode is released**
 * Find Similar and Related Anime from shows you're watching
 * Create shortcuts to Anime on your launcher
@@ -40,7 +39,6 @@ and more...
 * AnYme uses **HTTPS** when connecting to MyAnimeList. When creating a MyAnimeList account, I recommend you pick a password you do not use anywhere else
 * You can login or register on Kanon through the app!
 * AnYme is a MyAnimeList app! Other sources will not be added
-* Please report ads. I can block them fairly easily.
 
 ## Credits (alphabetically):
 
@@ -80,21 +78,6 @@ AnYme is a native Android application written in Kotlin and Java using Android S
 
 | Permission  | Reason | Required |
 | ------------- | ------------- | ------------- |
-| android.permission.ACCESS_WIFI_STATE  | The app may only download videos when you're connected through WiFi | Yes
 | android.permission.ACCESS_NETWORK_STATE  | The app will only update data if you're connected to the Internet | Yes
 | android.permission.REQUEST_INSTALL_PACKAGES  | Built-in apk updater | No
 | com.android.launcher.permission.INSTALL_SHORTCUT  | Install shortcuts to Anime on your home launcher | No
-
-
-# Why use AnYme?
-
-AnYme is not a competing app. I do not maintain it for the sake of being better than other apps. That said, there are some reasons to pick AnYme over other apps. Here's just a small list:
-
-* No Ads
-* MAL integration. In fact, AnYme was the first app with MAL integration after their site was relaunched.
-* Alpha updates are released multiple times per week
-* For downloading videos it uses SAF/Media Store which respects your privacy. The app doesn't need permission to see your files
-* It has a subreddit with more than 17K subscribers (https://anyme.app/reddit)
-* It requires no personal app permissions to function, so you can use the app without fearing your data getting stolen.
-* It has a public Trello board so you can follow the development progress (https://anyme.app/todo)
-* 🎉 And best of all, this is not made using Xamarin/Visual Studio! 🎉
