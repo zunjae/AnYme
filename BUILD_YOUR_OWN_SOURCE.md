@@ -17,7 +17,7 @@ Serialize the file using something like `gson.toJson(yourSite)`
 Host the site on a Gist. Can be public or private
 
 # Step 5
-Import the Gist. Make sure you provide a full link, including the commit hash. 
+Import the Gist in the AnYme app. Make sure you provide a full link, including the commit hash. 
 
 * Example valid link: https://gist.githubusercontent.com/zunjae/aaa/raw/bbb/MyCoolSource.json
 * Example invalid link: https://gist.githubusercontent.com/zunjae/aaa/raw/
