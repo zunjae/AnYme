@@ -7,16 +7,13 @@ The app still contains a browser
 Starting with V12, you can add your own sources to sites such as Crunchyroll
 
 # Step 1
-Download the DynamicBrowser class
+Import the DynamicBrowser class
 
 # Step 2
-Import it into a Kotlin project (TODO: provide sample project)
-
-# Step 3
-Serialize the file using something like `gson.toJson(yourSite)`
+Adjust the variables and run the project. The project will generate a JSON for you
 
 # Step 4
-Host the site on a Gist. Can be public or private
+Host the JSON on a Gist. Can be public or private
 
 # Step 5
 Import the Gist in the AnYme app. Make sure you provide a full link, including the commit hash. 
