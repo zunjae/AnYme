@@ -6,16 +6,20 @@ The app still contains a browser
 
 Starting with V12, you can add your own sources to sites such as Crunchyroll
 
+---
+
+# You can host sites yourself or ask someone else for a link
+
 # Step 1
 Import the DynamicBrowser class
 
 # Step 2
 Adjust the variables and run the project. The project will generate a JSON for you
 
-# Step 4
+# Step 3
 Host the JSON on a Gist. Can be public or private
 
-# Step 5
+# Step 4
 Import the Gist in the AnYme app. Make sure you provide a full link, including the commit hash. 
 
 * Example valid link: https://gist.githubusercontent.com/zunjae/aaa/raw/bbb/MyCoolSource.json
