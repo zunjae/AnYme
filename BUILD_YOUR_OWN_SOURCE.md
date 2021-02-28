@@ -11,7 +11,7 @@ Starting with V12, you can add your own sources to sites such as Crunchyroll
 # You can host sites yourself or ask someone else for a link
 
 # Step 1
-Import the DynamicBrowser class
+Import the DynamicBrowser class. Visit the Discord server for more info. This project isn't ready yet
 
 # Step 2
 Adjust the variables and run the project. The project will generate a JSON for you
